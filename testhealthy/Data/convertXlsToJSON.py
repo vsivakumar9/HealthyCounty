@@ -1,12 +1,79 @@
 #-----------------Import Dependencies----------------------------# 
 import xlrd
-from  import glob
+from glob2 import glob
 import json
 import pymongo
 from pymongo import MongoClient
+from bs4 import BeautifulSoup
+import requests
+import string
+import re
 #--------------------------------------------------------------------------------#
 def JSON_from_excel():
-        filePath = ""glob2
+        statesOfUSA = {
+        'AK': 'Alaska',
+        'AL': 'Alabama',
+        'AR': 'Arkansas',
+        'AS': 'American Samoa',
+        'AZ': 'Arizona',
+        'CA': 'California',
+        'CO': 'Colorado',
+        'CT': 'Connecticut',
+        'DC': 'District of Columbia',
+        'DE': 'Delaware',
+        'FL': 'Florida',
+        'GA': 'Georgia',
+        'GU': 'Guam',
+        'HI': 'Hawaii',
+        'IA': 'Iowa',
+        'ID': 'Idaho',
+        'IL': 'Illinois',
+        'IN': 'Indiana',
+        'KS': 'Kansas',
+        'KY': 'Kentucky',
+        'LA': 'Louisiana',
+        'MA': 'Massachusetts',
+        'MD': 'Maryland',
+        'ME': 'Maine',
+        'MI': 'Michigan',
+        'MN': 'Minnesota',
+        'MO': 'Missouri',
+        'MP': 'Northern Mariana Islands',
+        'MS': 'Mississippi',
+        'MT': 'Montana',
+        'NA': 'National',
+        'NC': 'North Carolina',
+        'ND': 'North Dakota',
+        'NE': 'Nebraska',
+        'NH': 'New Hampshire',
+        'NJ': 'New Jersey',
+        'NM': 'New Mexico',
+        'NV': 'Nevada',
+        'NY': 'New York',
+        'OH': 'Ohio',
+        'OK': 'Oklahoma',
+        'OR': 'Oregon',
+        'PA': 'Pennsylvania',
+        'PR': 'Puerto Rico',
+        'RI': 'Rhode Island',
+        'SC': 'South Carolina',
+        'SD': 'South Dakota',
+        'TN': 'Tennessee',
+        'TX': 'Texas',
+        'UT': 'Utah',
+        'VA': 'Virginia',
+        'VI': 'Virgin Islands',
+        'VT': 'Vermont',
+        'WA': 'Washington',
+        'WI': 'Wisconsin',
+        'WV': 'West Virginia',
+        'WY': 'Wyoming'
+}
+
+
+        filePath = ""
+        website_url = requests.get("https://en.wikipedia.org/w/index.php?title=User:Michael_J/County_table&oldid=368803236").text
+        wikiBaseURL = "https://en.wikipedia.org"
         xlsFilesOnly = glob(filePath+"*.xls") # parse all xls file(s) only
         StateList = []
         for xlsfile in xlsFilesOnly:
@@ -19,8 +86,12 @@ def JSON_from_excel():
                     for row_index in range(sh.nrows):
                         HealthyCounty = {}
                         if(row_index > 2 ):
+                            Soup = BeautifulSoup(website_url,'lxml')
+                            CountyGeoLocTbl = Soup.find('table',{'class':'wikitable sortable'})
+                            StateShortName = sh.cell(row_index, 13 ).value
+                            CountyName = sh.cell(row_index, 2 ).value
                             
-                            StateName = sh.cell(row_index, 1 ).value #---unused at the moment
+                            StateName = sh.cell(row_index, 1 ).value 
 
                             QualityofLife = { 
                                 "Z-Score" : sh.cell(row_index, 3 ).value,
@@ -47,26 +118,46 @@ def JSON_from_excel():
                                 "Z-Score" : sh.cell(row_index, 11 ).value,
                                 "Rank" : sh.cell(row_index, 12 ).value,
                             }
+                            # Perform lookup from the scraped data for the geo 
+                            # locations and other facts
+                            # skip the first row of the scraped data as it is the header.
+                            for tr in CountyGeoLocTbl.find_all('tr')[1:]:
+                                tds = tr.find_all('td')
+                                # Removed the superscripts e.g '[4]' with '' by usage of Regex
+                                ScrapedCounty = re.compile('[a-zA-Z ]{6,}',re.I).findall(tds[3].text)
+                                # Check for blanks / '' in  scraped county
+                                if (len(ScrapedCounty)>0):
+                                    ScrapedCounty = ScrapedCounty[0].rstrip()
+                                    
+                                # perform lookup 
+                                if(tds[1].text == StateShortName and ScrapedCounty  == CountyName):
+                                    CountyWikiLink = wikiBaseURL + tds[3].a.get('href')        
+                                    
+                                    # Populate the county dictionary
+                                    HealthyCounty = {
+                                        "CountyName" : CountyName,
+                                        "County FIPS" : sh.cell(row_index, 0 ).value,
+                                        "QualityofLife": QualityofLife,
+                                        "HealthBehaviours" : HealthBehaviours,
+                                        "ClinicalCare" : ClinicalCare,
+                                        "EconomicFactors" : EconomicFactors,
+                                        "PhysicalEnvironment" : PhysicalEnvironment,
+                                        "Population" : tds[5].text,
+                                        "TotalArea" : tds[11].text,
+                                        "Latitude" : tds[12].text.strip(),
+                                        "Longitude" : tds[13].text.strip(),
+                                        "CountyWikiLink" :CountyWikiLink
+                                    }
+                                    County = {
+                                        "County" : HealthyCounty
+                                    }
+                                    # Add only when we have found the facts on the county
+                                    CountyList.append(County)
 
-
-                            HealthyCounty = {
-                                "CountyName" : sh.cell(row_index, 2 ).value,
-                                "County FIPS" : sh.cell(row_index, 0 ).value,
-                                "QualityofLife": QualityofLife,
-                                "HealthBehaviours" : HealthBehaviours,
-                                "ClinicalCare" : ClinicalCare,
-                                "EconomicFactors" : EconomicFactors,
-                                "PhysicalEnvironment" : PhysicalEnvironment
-                            }
-
-                            County = {
-                                "County" : HealthyCounty
-                            }
-                            
-                            CountyList.append(County)
                     if(row_index == sh.nrows - 1):
                         State = {
                                     "StateName":StateName,
+                                    "StateShortName" : StateShortName,
                                     "Year" : yearReported,
                                     "FIPS":sh.cell(row_index, 0 ).value,
                                     "Counties" : CountyList                      
@@ -81,10 +172,10 @@ def JSON_from_excel():
         #Connection for local host
         # conn = 'mongodb://localhost:27017'
         # client = pymongo.MongoClient(conn)
-        # db=client.heathi_db
+        # db=client.healthi_db
         
-        #Connection for remote host
-        conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
+        # #Connection for remote host
+        conn = 'mongodb://healthi_admin:healthisrs9=@ds255332.mlab.com:55332/healthi_db'
         client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
         db = client.get_default_database()
 

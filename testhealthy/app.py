@@ -106,8 +106,8 @@ def details(state):
 # Initiate Flask app
 #------------------------------------------------------------------------------------#
 if __name__=="__main__":
-    #connect_args={'check_same_thread':False}
-    app.run()
+    connect_args={'check_same_thread':False}
+    app.run(debug=True)
 
 #Pragati : 9/14/2018. Updated to create 4 routes and modified 1 route.
 #Tested mlab cloud mongodb as well as with local mongodb.    
