@@ -1,0 +1,4665 @@
+[
+    {
+        "StateName": "Alaska",
+        "Year": "2018",
+        "FIPS": "02290",
+        "Counties": [
+            {
+                "County": {
+                    "CountyName": "Aleutians East",
+                    "County FIPS": "02013",
+                    "QualityofLife": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Aleutians West",
+                    "County FIPS": "02016",
+                    "QualityofLife": {
+                        "Z-Score": 0.2096800248,
+                        "Rank": 20.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.047017185,
+                        "Rank": 13.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0211397885,
+                        "Rank": 14.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.264883123,
+                        "Rank": 5.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.054333383,
+                        "Rank": 1.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Anchorage",
+                    "County FIPS": "02020",
+                    "QualityofLife": {
+                        "Z-Score": -0.120766527,
+                        "Rank": 12.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.269900236,
+                        "Rank": 1.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.170244318,
+                        "Rank": 2.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.233353634,
+                        "Rank": 6.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0357756626,
+                        "Rank": 23.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Bethel",
+                    "County FIPS": "02050",
+                    "QualityofLife": {
+                        "Z-Score": 0.407667751,
+                        "Rank": 22.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1905334776,
+                        "Rank": 20.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1343476308,
+                        "Rank": 21.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.447673771,
+                        "Rank": 23.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0280856694,
+                        "Rank": 20.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Bristol Bay",
+                    "County FIPS": "02060",
+                    "QualityofLife": {
+                        "Z-Score": -0.098317503,
+                        "Rank": 13.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0324985483,
+                        "Rank": 17.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0423834041,
+                        "Rank": 18.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.115585564,
+                        "Rank": 13.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.04222264,
+                        "Rank": 4.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Denali",
+                    "County FIPS": "02068",
+                    "QualityofLife": {
+                        "Z-Score": -0.125053069,
+                        "Rank": 11.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.142161867,
+                        "Rank": 6.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0234304802,
+                        "Rank": 15.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.300049829,
+                        "Rank": 4.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.02263834,
+                        "Rank": 9.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Dillingham",
+                    "County FIPS": "02070",
+                    "QualityofLife": {
+                        "Z-Score": 0.5433083456,
+                        "Rank": 23.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2795523005,
+                        "Rank": 22.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.004242203,
+                        "Rank": 13.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1719774705,
+                        "Rank": 18.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0139860743,
+                        "Rank": 14.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Fairbanks North Star",
+                    "County FIPS": "02090",
+                    "QualityofLife": {
+                        "Z-Score": -0.192239854,
+                        "Rank": 7.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.121941218,
+                        "Rank": 8.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.172088773,
+                        "Rank": 1.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.230507917,
+                        "Rank": 7.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0439895919,
+                        "Rank": 24.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Haines",
+                    "County FIPS": "02100",
+                    "QualityofLife": {
+                        "Z-Score": -0.191182874,
+                        "Rank": 8.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.253452355,
+                        "Rank": 2.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.101910532,
+                        "Rank": 4.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.167706267,
+                        "Rank": 9.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.016296755,
+                        "Rank": 16.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Hoonah-Angoon",
+                    "County FIPS": "02105",
+                    "QualityofLife": {
+                        "Z-Score": -0.003386541,
+                        "Rank": 15.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.038004628,
+                        "Rank": 14.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0422022846,
+                        "Rank": 17.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2411434762,
+                        "Rank": 21.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.053327205,
+                        "Rank": 3.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Juneau",
+                    "County FIPS": "02110",
+                    "QualityofLife": {
+                        "Z-Score": -0.395163715,
+                        "Rank": 4.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.208118865,
+                        "Rank": 3.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.164881842,
+                        "Rank": 3.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.348193198,
+                        "Rank": 2.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.031407965,
+                        "Rank": 6.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Kenai Peninsula",
+                    "County FIPS": "02122",
+                    "QualityofLife": {
+                        "Z-Score": -0.308967121,
+                        "Rank": 5.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.168532679,
+                        "Rank": 4.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.05586678,
+                        "Rank": 10.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.133323866,
+                        "Rank": 11.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0335014464,
+                        "Rank": 22.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Ketchikan Gateway",
+                    "County FIPS": "02130",
+                    "QualityofLife": {
+                        "Z-Score": -0.183572641,
+                        "Rank": 9.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.021286633,
+                        "Rank": 15.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.067965564,
+                        "Rank": 8.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.191078249,
+                        "Rank": 8.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0179068804,
+                        "Rank": 17.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Kodiak Island",
+                    "County FIPS": "02150",
+                    "QualityofLife": {
+                        "Z-Score": -0.411091987,
+                        "Rank": 2.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.141060455,
+                        "Rank": 7.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.066971199,
+                        "Rank": 9.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.345536651,
+                        "Rank": 3.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.028061201,
+                        "Rank": 7.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Kusilvak",
+                    "County FIPS": "02158",
+                    "QualityofLife": {
+                        "Z-Score": 0.9556823128,
+                        "Rank": 25.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3465846895,
+                        "Rank": 25.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0296320291,
+                        "Rank": 16.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.7128619247,
+                        "Rank": 25.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0217020493,
+                        "Rank": 19.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Lake and Peninsula",
+                    "County FIPS": "02164",
+                    "QualityofLife": {
+                        "Z-Score": 0.0324781501,
+                        "Rank": 16.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1349723324,
+                        "Rank": 19.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1532299977,
+                        "Rank": 23.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2342199324,
+                        "Rank": 20.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.017008676,
+                        "Rank": 10.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Matanuska-Susitna",
+                    "County FIPS": "02170",
+                    "QualityofLife": {
+                        "Z-Score": -0.147969007,
+                        "Rank": 10.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.10972771,
+                        "Rank": 10.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.068280937,
+                        "Rank": 7.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.147434699,
+                        "Rank": 10.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.067179132,
+                        "Rank": 25.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Nome",
+                    "County FIPS": "02180",
+                    "QualityofLife": {
+                        "Z-Score": 0.3356626333,
+                        "Rank": 21.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3398315239,
+                        "Rank": 24.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0564622863,
+                        "Rank": 19.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2288382504,
+                        "Rank": 19.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0144586178,
+                        "Rank": 15.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "North Slope",
+                    "County FIPS": "02185",
+                    "QualityofLife": {
+                        "Z-Score": 0.0655435354,
+                        "Rank": 17.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2083354309,
+                        "Rank": 21.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2262004099,
+                        "Rank": 25.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0171335915,
+                        "Rank": 16.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.00124666,
+                        "Rank": 11.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Northwest Arctic",
+                    "County FIPS": "02188",
+                    "QualityofLife": {
+                        "Z-Score": 0.5599762572,
+                        "Rank": 24.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3387733873,
+                        "Rank": 23.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1714658444,
+                        "Rank": 24.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3928415488,
+                        "Rank": 22.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0107332882,
+                        "Rank": 13.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Petersburg",
+                    "County FIPS": "02195",
+                    "QualityofLife": {
+                        "Z-Score": -0.218119329,
+                        "Rank": 6.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.102475323,
+                        "Rank": 11.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.087853288,
+                        "Rank": 6.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.102997834,
+                        "Rank": 14.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.054095374,
+                        "Rank": 2.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Prince of Wales-Hyder",
+                    "County FIPS": "02198",
+                    "QualityofLife": {
+                        "Z-Score": 0.0839167399,
+                        "Rank": 18.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.008303107,
+                        "Rank": 16.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0935984795,
+                        "Rank": 20.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1346152082,
+                        "Rank": 17.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.033498584,
+                        "Rank": 5.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Sitka",
+                    "County FIPS": "02220",
+                    "QualityofLife": {
+                        "Z-Score": -0.062533619,
+                        "Rank": 14.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.151993451,
+                        "Rank": 5.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.092493515,
+                        "Rank": 5.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.35787987,
+                        "Rank": 1.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0080386915,
+                        "Rank": 12.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Skagway",
+                    "County FIPS": "02230",
+                    "QualityofLife": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Southeast Fairbanks",
+                    "County FIPS": "02240",
+                    "QualityofLife": {
+                        "Z-Score": -0.408288573,
+                        "Rank": 3.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.089625166,
+                        "Rank": 12.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.029258957,
+                        "Rank": 12.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.01432073,
+                        "Rank": 15.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.023309603,
+                        "Rank": 8.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Valdez-Cordova",
+                    "County FIPS": "02261",
+                    "QualityofLife": {
+                        "Z-Score": -0.464769308,
+                        "Rank": 1.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.111461538,
+                        "Rank": 9.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.048846901,
+                        "Rank": 11.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.133065735,
+                        "Rank": 12.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0189598909,
+                        "Rank": 18.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Wrangell",
+                    "County FIPS": "02275",
+                    "QualityofLife": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Yakutat",
+                    "County FIPS": "02282",
+                    "QualityofLife": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0,
+                        "Rank": 0.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Yukon-Koyukuk",
+                    "County FIPS": "02290",
+                    "QualityofLife": {
+                        "Z-Score": 0.1204994674,
+                        "Rank": 19.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1139807257,
+                        "Rank": 18.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1395725573,
+                        "Rank": 22.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.5046119922,
+                        "Rank": 24.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0305358817,
+                        "Rank": 21.0
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "StateName": "California",
+        "Year": "2018",
+        "FIPS": "06115",
+        "Counties": [
+            {
+                "County": {
+                    "CountyName": "Alameda",
+                    "County FIPS": "06001",
+                    "QualityofLife": {
+                        "Z-Score": -0.143483919,
+                        "Rank": 20.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.206960936,
+                        "Rank": 7.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.140706539,
+                        "Rank": 10.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.202895977,
+                        "Rank": 12.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.058122712,
+                        "Rank": 12.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Alpine",
+                    "County FIPS": "06003",
+                    "QualityofLife": {
+                        "Z-Score": "",
+                        "Rank": "NR"
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": "",
+                        "Rank": "NR"
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": "",
+                        "Rank": "NR"
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": "",
+                        "Rank": "NR"
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": "",
+                        "Rank": "NR"
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Amador",
+                    "County FIPS": "06005",
+                    "QualityofLife": {
+                        "Z-Score": 0.010897421,
+                        "Rank": 30.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.146789651,
+                        "Rank": 15.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.076138869,
+                        "Rank": 17.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.124762819,
+                        "Rank": 18.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0123978652,
+                        "Rank": 35.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Butte",
+                    "County FIPS": "06007",
+                    "QualityofLife": {
+                        "Z-Score": 0.028647655,
+                        "Rank": 31.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1656467163,
+                        "Rank": 44.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0119902463,
+                        "Rank": 30.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.020136234,
+                        "Rank": 27.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.062320725,
+                        "Rank": 11.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Calaveras",
+                    "County FIPS": "06009",
+                    "QualityofLife": {
+                        "Z-Score": -0.602858451,
+                        "Rank": 2.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.060869575,
+                        "Rank": 24.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.072722456,
+                        "Rank": 20.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.059117493,
+                        "Rank": 25.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0166963362,
+                        "Rank": 36.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Colusa",
+                    "County FIPS": "06011",
+                    "QualityofLife": {
+                        "Z-Score": 0.1597705075,
+                        "Rank": 40.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.05964633,
+                        "Rank": 25.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1674047007,
+                        "Rank": 51.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.158261181,
+                        "Rank": 47.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.079013138,
+                        "Rank": 6.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Contra Costa",
+                    "County FIPS": "06013",
+                    "QualityofLife": {
+                        "Z-Score": -0.233181584,
+                        "Rank": 15.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.20395134,
+                        "Rank": 8.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.117670016,
+                        "Rank": 13.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.286997852,
+                        "Rank": 8.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.004589024,
+                        "Rank": 23.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Del Norte",
+                    "County FIPS": "06015",
+                    "QualityofLife": {
+                        "Z-Score": -0.153954038,
+                        "Rank": 19.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.214602315,
+                        "Rank": 51.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.085001586,
+                        "Rank": 16.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.5112139437,
+                        "Rank": 56.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.030677302,
+                        "Rank": 17.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "El Dorado",
+                    "County FIPS": "06017",
+                    "QualityofLife": {
+                        "Z-Score": -0.215801087,
+                        "Rank": 18.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.152994346,
+                        "Rank": 13.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.122591602,
+                        "Rank": 12.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.288451765,
+                        "Rank": 7.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.050656069,
+                        "Rank": 15.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Fresno",
+                    "County FIPS": "06019",
+                    "QualityofLife": {
+                        "Z-Score": 0.7070100383,
+                        "Rank": 57.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.166481162,
+                        "Rank": 45.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0722681808,
+                        "Rank": 38.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3625593814,
+                        "Rank": 55.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0926187193,
+                        "Rank": 54.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Glenn",
+                    "County FIPS": "06021",
+                    "QualityofLife": {
+                        "Z-Score": 0.2318517073,
+                        "Rank": 45.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1026642007,
+                        "Rank": 38.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2558879613,
+                        "Rank": 57.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1563360974,
+                        "Rank": 46.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.068130761,
+                        "Rank": 7.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Humboldt",
+                    "County FIPS": "06023",
+                    "QualityofLife": {
+                        "Z-Score": -0.003346506,
+                        "Rank": 28.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2436997401,
+                        "Rank": 52.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.075847798,
+                        "Rank": 18.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.069235631,
+                        "Rank": 24.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.022910852,
+                        "Rank": 19.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Imperial",
+                    "County FIPS": "06025",
+                    "QualityofLife": {
+                        "Z-Score": 0.2465585589,
+                        "Rank": 46.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1420939464,
+                        "Rank": 42.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1377113087,
+                        "Rank": 47.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.7082072439,
+                        "Rank": 57.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0580728319,
+                        "Rank": 48.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Inyo",
+                    "County FIPS": "06027",
+                    "QualityofLife": {
+                        "Z-Score": 0.2197779153,
+                        "Rank": 43.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0141222234,
+                        "Rank": 29.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.075198697,
+                        "Rank": 19.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1096885762,
+                        "Rank": 39.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.067000652,
+                        "Rank": 8.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Kern",
+                    "County FIPS": "06029",
+                    "QualityofLife": {
+                        "Z-Score": 0.5647278428,
+                        "Rank": 55.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.4562441787,
+                        "Rank": 57.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1722405354,
+                        "Rank": 52.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3511399778,
+                        "Rank": 53.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0797990888,
+                        "Rank": 52.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Kings",
+                    "County FIPS": "06031",
+                    "QualityofLife": {
+                        "Z-Score": 0.230040338,
+                        "Rank": 44.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1971718837,
+                        "Rank": 49.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1454452604,
+                        "Rank": 48.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1789625648,
+                        "Rank": 48.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0636739745,
+                        "Rank": 50.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Lake",
+                    "County FIPS": "06033",
+                    "QualityofLife": {
+                        "Z-Score": 0.3482242494,
+                        "Rank": 48.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2438441338,
+                        "Rank": 53.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1309489545,
+                        "Rank": 46.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2998373494,
+                        "Rank": 51.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0059829404,
+                        "Rank": 31.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Lassen",
+                    "County FIPS": "06035",
+                    "QualityofLife": {
+                        "Z-Score": 0.2566739263,
+                        "Rank": 47.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1980158469,
+                        "Rank": 50.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1053371969,
+                        "Rank": 42.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.132540109,
+                        "Rank": 42.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.098288206,
+                        "Rank": 4.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Los Angeles",
+                    "County FIPS": "06037",
+                    "QualityofLife": {
+                        "Z-Score": 0.1986334151,
+                        "Rank": 41.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.1762227,
+                        "Rank": 11.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1307408094,
+                        "Rank": 45.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.017052068,
+                        "Rank": 29.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.1412947574,
+                        "Rank": 57.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Madera",
+                    "County FIPS": "06039",
+                    "QualityofLife": {
+                        "Z-Score": 0.3908381426,
+                        "Rank": 49.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1715357967,
+                        "Rank": 46.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.145473899,
+                        "Rank": 49.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2888256576,
+                        "Rank": 50.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0690604574,
+                        "Rank": 51.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Marin",
+                    "County FIPS": "06041",
+                    "QualityofLife": {
+                        "Z-Score": -0.593200273,
+                        "Rank": 3.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.35912171,
+                        "Rank": 3.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.308262442,
+                        "Rank": 1.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.407786062,
+                        "Rank": 3.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.064534809,
+                        "Rank": 10.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Mariposa",
+                    "County FIPS": "06043",
+                    "QualityofLife": {
+                        "Z-Score": -0.069666093,
+                        "Rank": 25.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0080487395,
+                        "Rank": 28.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.086519951,
+                        "Rank": 40.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0461466211,
+                        "Rank": 32.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.088487808,
+                        "Rank": 5.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Mendocino",
+                    "County FIPS": "06045",
+                    "QualityofLife": {
+                        "Z-Score": 0.1015095912,
+                        "Rank": 38.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1316512163,
+                        "Rank": 41.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0029453952,
+                        "Rank": 29.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0903578294,
+                        "Rank": 37.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.004083079,
+                        "Rank": 24.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Merced",
+                    "County FIPS": "06047",
+                    "QualityofLife": {
+                        "Z-Score": 0.4907096549,
+                        "Rank": 52.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1805056325,
+                        "Rank": 48.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1728077481,
+                        "Rank": 53.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3166222661,
+                        "Rank": 52.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0466689724,
+                        "Rank": 44.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Modoc",
+                    "County FIPS": "06049",
+                    "QualityofLife": {
+                        "Z-Score": 0.0654629601,
+                        "Rank": 32.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0940661187,
+                        "Rank": 35.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0432145088,
+                        "Rank": 32.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1415474886,
+                        "Rank": 44.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.138013832,
+                        "Rank": 1.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Mono",
+                    "County FIPS": "06051",
+                    "QualityofLife": {
+                        "Z-Score": 0.0670618373,
+                        "Rank": 34.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0203468296,
+                        "Rank": 30.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0638530967,
+                        "Rank": 35.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.159879366,
+                        "Rank": 15.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.109314954,
+                        "Rank": 3.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Monterey",
+                    "County FIPS": "06053",
+                    "QualityofLife": {
+                        "Z-Score": -0.089874594,
+                        "Rank": 24.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.024227321,
+                        "Rank": 27.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0195783929,
+                        "Rank": 31.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0574282587,
+                        "Rank": 33.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0279436589,
+                        "Rank": 41.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Napa",
+                    "County FIPS": "06055",
+                    "QualityofLife": {
+                        "Z-Score": -0.385757228,
+                        "Rank": 7.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.10801783,
+                        "Rank": 21.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.092372147,
+                        "Rank": 15.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.280867825,
+                        "Rank": 9.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0049381064,
+                        "Rank": 29.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Nevada",
+                    "County FIPS": "06057",
+                    "QualityofLife": {
+                        "Z-Score": -0.471036679,
+                        "Rank": 5.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.121981573,
+                        "Rank": 17.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.158958609,
+                        "Rank": 8.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.116675805,
+                        "Rank": 19.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.013227888,
+                        "Rank": 20.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Orange",
+                    "County FIPS": "06059",
+                    "QualityofLife": {
+                        "Z-Score": -0.246276065,
+                        "Rank": 13.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.320198163,
+                        "Rank": 4.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.063826683,
+                        "Rank": 21.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.288850635,
+                        "Rank": 6.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0183031743,
+                        "Rank": 38.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Placer",
+                    "County FIPS": "06061",
+                    "QualityofLife": {
+                        "Z-Score": -0.644378355,
+                        "Rank": 1.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.2897703,
+                        "Rank": 5.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.259489681,
+                        "Rank": 3.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.421529331,
+                        "Rank": 2.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0090302628,
+                        "Rank": 33.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Plumas",
+                    "County FIPS": "06063",
+                    "QualityofLife": {
+                        "Z-Score": 0.5207720833,
+                        "Rank": 54.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.046625359,
+                        "Rank": 26.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0630813394,
+                        "Rank": 34.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0378451468,
+                        "Rank": 30.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0064499287,
+                        "Rank": 32.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Riverside",
+                    "County FIPS": "06065",
+                    "QualityofLife": {
+                        "Z-Score": 0.0667495737,
+                        "Rank": 33.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0348386327,
+                        "Rank": 31.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1237467534,
+                        "Rank": 44.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.034016193,
+                        "Rank": 26.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.1157607799,
+                        "Rank": 56.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Sacramento",
+                    "County FIPS": "06067",
+                    "QualityofLife": {
+                        "Z-Score": 0.1023347512,
+                        "Rank": 39.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0810662953,
+                        "Rank": 33.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.056600421,
+                        "Rank": 23.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.01757995,
+                        "Rank": 28.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.03389729,
+                        "Rank": 42.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "San Benito",
+                    "County FIPS": "06069",
+                    "QualityofLife": {
+                        "Z-Score": -0.094102425,
+                        "Rank": 23.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.148413817,
+                        "Rank": 14.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1113286672,
+                        "Rank": 43.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.095613511,
+                        "Rank": 22.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0515378081,
+                        "Rank": 46.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "San Bernardino",
+                    "County FIPS": "06071",
+                    "QualityofLife": {
+                        "Z-Score": 0.4377816781,
+                        "Rank": 51.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1006003465,
+                        "Rank": 37.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1595127138,
+                        "Rank": 50.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.067840874,
+                        "Rank": 34.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.1100769051,
+                        "Rank": 55.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "San Diego",
+                    "County FIPS": "06073",
+                    "QualityofLife": {
+                        "Z-Score": -0.243788249,
+                        "Rank": 14.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.119004441,
+                        "Rank": 18.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.023001235,
+                        "Rank": 26.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.178835591,
+                        "Rank": 14.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0581651928,
+                        "Rank": 49.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "San Francisco",
+                    "County FIPS": "06075",
+                    "QualityofLife": {
+                        "Z-Score": -0.290586482,
+                        "Rank": 12.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.15693601,
+                        "Rank": 12.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.269337154,
+                        "Rank": 2.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.192065567,
+                        "Rank": 13.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.116586174,
+                        "Rank": 2.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "San Joaquin",
+                    "County FIPS": "06077",
+                    "QualityofLife": {
+                        "Z-Score": 0.4144869048,
+                        "Rank": 50.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0883237867,
+                        "Rank": 34.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0687277369,
+                        "Rank": 36.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1469687015,
+                        "Rank": 45.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0500409192,
+                        "Rank": 45.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "San Luis Obispo",
+                    "County FIPS": "06079",
+                    "QualityofLife": {
+                        "Z-Score": -0.322696751,
+                        "Rank": 10.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.116148091,
+                        "Rank": 19.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.1492325,
+                        "Rank": 9.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.318491812,
+                        "Rank": 5.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0052052955,
+                        "Rank": 30.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "San Mateo",
+                    "County FIPS": "06081",
+                    "QualityofLife": {
+                        "Z-Score": -0.482978593,
+                        "Rank": 4.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.40565249,
+                        "Rank": 2.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.210028437,
+                        "Rank": 4.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.431424579,
+                        "Rank": 1.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0021264824,
+                        "Rank": 28.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Santa Barbara",
+                    "County FIPS": "06083",
+                    "QualityofLife": {
+                        "Z-Score": -0.129390231,
+                        "Rank": 21.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.140011372,
+                        "Rank": 16.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.059766784,
+                        "Rank": 22.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.147002264,
+                        "Rank": 17.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0102656695,
+                        "Rank": 34.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Santa Clara",
+                    "County FIPS": "06085",
+                    "QualityofLife": {
+                        "Z-Score": -0.428914225,
+                        "Rank": 6.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.427481645,
+                        "Rank": 1.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.2031538,
+                        "Rank": 5.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.346046219,
+                        "Rank": 4.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0228535462,
+                        "Rank": 39.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Santa Cruz",
+                    "County FIPS": "06087",
+                    "QualityofLife": {
+                        "Z-Score": -0.225545776,
+                        "Rank": 17.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.180116507,
+                        "Rank": 10.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.183747763,
+                        "Rank": 6.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.108137064,
+                        "Rank": 20.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0171742702,
+                        "Rank": 37.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Shasta",
+                    "County FIPS": "06089",
+                    "QualityofLife": {
+                        "Z-Score": -0.017848645,
+                        "Rank": 27.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1501613592,
+                        "Rank": 43.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.026628094,
+                        "Rank": 25.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0420386088,
+                        "Rank": 31.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.005149313,
+                        "Rank": 21.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Sierra",
+                    "County FIPS": "06091",
+                    "QualityofLife": {
+                        "Z-Score": -0.037487238,
+                        "Rank": 26.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.075059042,
+                        "Rank": 23.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.059667715,
+                        "Rank": 33.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0771796217,
+                        "Rank": 36.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.065212559,
+                        "Rank": 9.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Siskiyou",
+                    "County FIPS": "06093",
+                    "QualityofLife": {
+                        "Z-Score": 0.6436727593,
+                        "Rank": 56.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0977459198,
+                        "Rank": 36.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.038004683,
+                        "Rank": 24.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0715905471,
+                        "Rank": 35.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.023059089,
+                        "Rank": 18.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Solano",
+                    "County FIPS": "06095",
+                    "QualityofLife": {
+                        "Z-Score": -0.110428049,
+                        "Rank": 22.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0428492981,
+                        "Rank": 32.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.011612016,
+                        "Rank": 27.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.097208238,
+                        "Rank": 21.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.04082224,
+                        "Rank": 16.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Sonoma",
+                    "County FIPS": "06097",
+                    "QualityofLife": {
+                        "Z-Score": -0.368997805,
+                        "Rank": 8.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.181982622,
+                        "Rank": 9.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.116372811,
+                        "Rank": 14.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.244230475,
+                        "Rank": 10.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0006468548,
+                        "Rank": 27.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Stanislaus",
+                    "County FIPS": "06099",
+                    "QualityofLife": {
+                        "Z-Score": 0.0854679779,
+                        "Rank": 36.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1087284977,
+                        "Rank": 39.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0721945597,
+                        "Rank": 37.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0920698491,
+                        "Rank": 38.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0553152302,
+                        "Rank": 47.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Sutter",
+                    "County FIPS": "06101",
+                    "QualityofLife": {
+                        "Z-Score": 0.0075470431,
+                        "Rank": 29.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1159549438,
+                        "Rank": 40.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0722768069,
+                        "Rank": 39.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.12230623,
+                        "Rank": 40.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.054926665,
+                        "Rank": 14.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Tehama",
+                    "County FIPS": "06103",
+                    "QualityofLife": {
+                        "Z-Score": 0.2033622517,
+                        "Rank": 42.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2611901027,
+                        "Rank": 55.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0981680595,
+                        "Rank": 41.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1347179913,
+                        "Rank": 43.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.003382572,
+                        "Rank": 25.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Trinity",
+                    "County FIPS": "06105",
+                    "QualityofLife": {
+                        "Z-Score": 0.070903466,
+                        "Rank": 35.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1723767476,
+                        "Rank": 47.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1794543134,
+                        "Rank": 54.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1856931264,
+                        "Rank": 49.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.056060209,
+                        "Rank": 13.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Tulare",
+                    "County FIPS": "06107",
+                    "QualityofLife": {
+                        "Z-Score": 0.5056379595,
+                        "Rank": 53.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3769906204,
+                        "Rank": 56.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2058472343,
+                        "Rank": 55.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.352229017,
+                        "Rank": 54.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0877349462,
+                        "Rank": 53.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Tuolumne",
+                    "County FIPS": "06109",
+                    "QualityofLife": {
+                        "Z-Score": -0.328737749,
+                        "Rank": 9.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.081444352,
+                        "Rank": 22.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.138122671,
+                        "Rank": 11.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.08559919,
+                        "Rank": 23.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.004745519,
+                        "Rank": 22.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Ventura",
+                    "County FIPS": "06111",
+                    "QualityofLife": {
+                        "Z-Score": -0.305563337,
+                        "Rank": 11.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.224516052,
+                        "Rank": 6.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0028827662,
+                        "Rank": 28.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.231858914,
+                        "Rank": 11.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0429862297,
+                        "Rank": 43.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Yolo",
+                    "County FIPS": "06113",
+                    "QualityofLife": {
+                        "Z-Score": -0.230289821,
+                        "Rank": 16.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.112413986,
+                        "Rank": 20.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.17472946,
+                        "Rank": 7.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.151727882,
+                        "Rank": 16.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.001849668,
+                        "Rank": 26.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Yuba",
+                    "County FIPS": "06115",
+                    "QualityofLife": {
+                        "Z-Score": 0.0930580374,
+                        "Rank": 37.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2554081372,
+                        "Rank": 54.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2278681413,
+                        "Rank": 56.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1269331758,
+                        "Rank": 41.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0271036346,
+                        "Rank": 40.0
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "StateName": "Connecticut",
+        "Year": "2018",
+        "FIPS": "09015",
+        "Counties": [
+            {
+                "County": {
+                    "CountyName": "Fairfield",
+                    "County FIPS": "09001",
+                    "QualityofLife": {
+                        "Z-Score": -0.130046981,
+                        "Rank": 4.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.269094607,
+                        "Rank": 1.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0251657585,
+                        "Rank": 4.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.100571468,
+                        "Rank": 4.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.031250988,
+                        "Rank": 8.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Hartford",
+                    "County FIPS": "09003",
+                    "QualityofLife": {
+                        "Z-Score": 0.4601535967,
+                        "Rank": 8.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0561740089,
+                        "Rank": 5.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.091220803,
+                        "Rank": 2.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2472305314,
+                        "Rank": 6.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.019938906,
+                        "Rank": 2.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Litchfield",
+                    "County FIPS": "09005",
+                    "QualityofLife": {
+                        "Z-Score": -0.487929397,
+                        "Rank": 2.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.107131352,
+                        "Rank": 3.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.042743615,
+                        "Rank": 6.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.250284619,
+                        "Rank": 3.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.016844549,
+                        "Rank": 3.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Middlesex",
+                    "County FIPS": "09007",
+                    "QualityofLife": {
+                        "Z-Score": -0.609033594,
+                        "Rank": 1.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.222453458,
+                        "Rank": 2.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.154222633,
+                        "Rank": 1.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.412457234,
+                        "Rank": 1.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.01377765,
+                        "Rank": 6.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "New Haven",
+                    "County FIPS": "09009",
+                    "QualityofLife": {
+                        "Z-Score": 0.4498544805,
+                        "Rank": 7.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1169577794,
+                        "Rank": 7.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0410304782,
+                        "Rank": 5.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.4037148021,
+                        "Rank": 8.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0247364264,
+                        "Rank": 7.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "New London",
+                    "County FIPS": "09011",
+                    "QualityofLife": {
+                        "Z-Score": 0.2038878493,
+                        "Rank": 5.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1131294545,
+                        "Rank": 6.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0999356604,
+                        "Rank": 8.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1322173873,
+                        "Rank": 5.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.044312672,
+                        "Rank": 1.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Tolland",
+                    "County FIPS": "09013",
+                    "QualityofLife": {
+                        "Z-Score": -0.292048072,
+                        "Rank": 3.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.033858122,
+                        "Rank": 4.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.062099818,
+                        "Rank": 3.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.3304876,
+                        "Rank": 2.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.001349907,
+                        "Rank": 4.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Windham",
+                    "County FIPS": "09015",
+                    "QualityofLife": {
+                        "Z-Score": 0.4051621172,
+                        "Rank": 6.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3462762961,
+                        "Rank": 8.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0986677418,
+                        "Rank": 7.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3106382011,
+                        "Rank": 7.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0126809692,
+                        "Rank": 5.0
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "StateName": "New Jersey",
+        "Year": "2018",
+        "FIPS": "34041",
+        "Counties": [
+            {
+                "County": {
+                    "CountyName": "Atlantic",
+                    "County FIPS": "34001",
+                    "QualityofLife": {
+                        "Z-Score": 0.2421436693,
+                        "Rank": 15.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2858941505,
+                        "Rank": 19.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0347778287,
+                        "Rank": 15.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3798992512,
+                        "Rank": 18.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.005218188,
+                        "Rank": 7.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Bergen",
+                    "County FIPS": "34003",
+                    "QualityofLife": {
+                        "Z-Score": -0.310805098,
+                        "Rank": 5.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.300229828,
+                        "Rank": 3.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.141708979,
+                        "Rank": 4.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.335394626,
+                        "Rank": 4.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0213491665,
+                        "Rank": 16.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Burlington",
+                    "County FIPS": "34005",
+                    "QualityofLife": {
+                        "Z-Score": -0.127669604,
+                        "Rank": 9.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.038875237,
+                        "Rank": 9.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.089185602,
+                        "Rank": 6.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.221953285,
+                        "Rank": 7.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0358238545,
+                        "Rank": 18.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Camden",
+                    "County FIPS": "34007",
+                    "QualityofLife": {
+                        "Z-Score": 0.5568258767,
+                        "Rank": 19.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1780316547,
+                        "Rank": 17.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.021045018,
+                        "Rank": 13.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1974281256,
+                        "Rank": 14.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0486687991,
+                        "Rank": 21.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Cape May",
+                    "County FIPS": "34009",
+                    "QualityofLife": {
+                        "Z-Score": -0.209027504,
+                        "Rank": 8.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1495141182,
+                        "Rank": 16.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.057954653,
+                        "Rank": 7.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3896947019,
+                        "Rank": 19.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.093709152,
+                        "Rank": 1.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Cumberland",
+                    "County FIPS": "34011",
+                    "QualityofLife": {
+                        "Z-Score": 0.8559676785,
+                        "Rank": 21.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.4230525145,
+                        "Rank": 21.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2237765411,
+                        "Rank": 19.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.6094515959,
+                        "Rank": 21.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0060887198,
+                        "Rank": 12.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Essex",
+                    "County FIPS": "34013",
+                    "QualityofLife": {
+                        "Z-Score": 0.570170903,
+                        "Rank": 20.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0832775018,
+                        "Rank": 14.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0788596777,
+                        "Rank": 17.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3998004322,
+                        "Rank": 20.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.037940123,
+                        "Rank": 19.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Gloucester",
+                    "County FIPS": "34015",
+                    "QualityofLife": {
+                        "Z-Score": 0.3452989618,
+                        "Rank": 18.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1951881483,
+                        "Rank": 18.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0558123256,
+                        "Rank": 16.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.119143691,
+                        "Rank": 10.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0424252787,
+                        "Rank": 20.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Hudson",
+                    "County FIPS": "34017",
+                    "QualityofLife": {
+                        "Z-Score": 0.3421764938,
+                        "Rank": 17.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.011138131,
+                        "Rank": 12.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.319609981,
+                        "Rank": 21.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2328247231,
+                        "Rank": 16.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.051010897,
+                        "Rank": 2.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Hunterdon",
+                    "County FIPS": "34019",
+                    "QualityofLife": {
+                        "Z-Score": -0.655626857,
+                        "Rank": 1.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.291847997,
+                        "Rank": 4.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.260119238,
+                        "Rank": 1.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.459637053,
+                        "Rank": 1.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.01894079,
+                        "Rank": 6.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Mercer",
+                    "County FIPS": "34021",
+                    "QualityofLife": {
+                        "Z-Score": 0.2182235543,
+                        "Rank": 13.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.119402047,
+                        "Rank": 7.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.048260745,
+                        "Rank": 8.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.052430725,
+                        "Rank": 11.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.032528763,
+                        "Rank": 4.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Middlesex",
+                    "County FIPS": "34023",
+                    "QualityofLife": {
+                        "Z-Score": -0.10209282,
+                        "Rank": 10.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.153271381,
+                        "Rank": 5.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.025048751,
+                        "Rank": 9.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.161823325,
+                        "Rank": 8.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.010446364,
+                        "Rank": 13.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Monmouth",
+                    "County FIPS": "34025",
+                    "QualityofLife": {
+                        "Z-Score": -0.310675215,
+                        "Rank": 6.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.094450124,
+                        "Rank": 8.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.114916343,
+                        "Rank": 5.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.224157699,
+                        "Rank": 6.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0112462085,
+                        "Rank": 14.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Morris",
+                    "County FIPS": "34027",
+                    "QualityofLife": {
+                        "Z-Score": -0.580386472,
+                        "Rank": 2.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.320092565,
+                        "Rank": 2.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.16406609,
+                        "Rank": 3.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.446700285,
+                        "Rank": 2.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.002449025,
+                        "Rank": 8.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Ocean",
+                    "County FIPS": "34029",
+                    "QualityofLife": {
+                        "Z-Score": -0.289414567,
+                        "Rank": 7.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.022269178,
+                        "Rank": 11.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.012641294,
+                        "Rank": 11.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0212349717,
+                        "Rank": 12.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.026430303,
+                        "Rank": 5.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Passaic",
+                    "County FIPS": "34031",
+                    "QualityofLife": {
+                        "Z-Score": 0.3385842312,
+                        "Rank": 16.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1451240685,
+                        "Rank": 15.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1272128811,
+                        "Rank": 18.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.370595565,
+                        "Rank": 17.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0004768012,
+                        "Rank": 9.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Salem",
+                    "County FIPS": "34033",
+                    "QualityofLife": {
+                        "Z-Score": 0.2340370697,
+                        "Rank": 14.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3287936626,
+                        "Rank": 20.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2296139967,
+                        "Rank": 20.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2148369209,
+                        "Rank": 15.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0300104008,
+                        "Rank": 17.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Somerset",
+                    "County FIPS": "34035",
+                    "QualityofLife": {
+                        "Z-Score": -0.48489871,
+                        "Rank": 3.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.346520478,
+                        "Rank": 1.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.198347478,
+                        "Rank": 2.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.385936434,
+                        "Rank": 3.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.034651888,
+                        "Rank": 3.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Sussex",
+                    "County FIPS": "34037",
+                    "QualityofLife": {
+                        "Z-Score": -0.480782739,
+                        "Rank": 4.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.025599392,
+                        "Rank": 10.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.02313742,
+                        "Rank": 10.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.279127237,
+                        "Rank": 5.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0036551259,
+                        "Rank": 10.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Union",
+                    "County FIPS": "34039",
+                    "QualityofLife": {
+                        "Z-Score": -0.053543446,
+                        "Rank": 12.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.134687913,
+                        "Rank": 6.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0319456329,
+                        "Rank": 14.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0319749296,
+                        "Rank": 13.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0114916821,
+                        "Rank": 15.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Warren",
+                    "County FIPS": "34041",
+                    "QualityofLife": {
+                        "Z-Score": -0.098505406,
+                        "Rank": 11.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0695084533,
+                        "Rank": 13.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0127327094,
+                        "Rank": 12.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.161436856,
+                        "Rank": 9.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0053164822,
+                        "Rank": 11.0
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "StateName": "New York",
+        "Year": "2018",
+        "FIPS": "36123",
+        "Counties": [
+            {
+                "County": {
+                    "CountyName": "Albany",
+                    "County FIPS": "36001",
+                    "QualityofLife": {
+                        "Z-Score": 0.0212405703,
+                        "Rank": 35.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.12955373,
+                        "Rank": 13.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.138854624,
+                        "Rank": 7.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.288758292,
+                        "Rank": 9.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.006464449,
+                        "Rank": 36.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Allegany",
+                    "County FIPS": "36003",
+                    "QualityofLife": {
+                        "Z-Score": 0.1300787841,
+                        "Rank": 39.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1074766246,
+                        "Rank": 45.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0925363236,
+                        "Rank": 48.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1394938208,
+                        "Rank": 48.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0025338227,
+                        "Rank": 29.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Bronx",
+                    "County FIPS": "36005",
+                    "QualityofLife": {
+                        "Z-Score": 1.4162266402,
+                        "Rank": 62.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0834047267,
+                        "Rank": 40.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2531841376,
+                        "Rank": 62.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 1.0405818739,
+                        "Rank": 62.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0494217218,
+                        "Rank": 59.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Broome",
+                    "County FIPS": "36007",
+                    "QualityofLife": {
+                        "Z-Score": 0.2890496256,
+                        "Rank": 53.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0490632284,
+                        "Rank": 35.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.070487087,
+                        "Rank": 16.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1243177525,
+                        "Rank": 47.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.046321226,
+                        "Rank": 8.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Cattaraugus",
+                    "County FIPS": "36009",
+                    "QualityofLife": {
+                        "Z-Score": 0.7198104141,
+                        "Rank": 60.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2760280471,
+                        "Rank": 59.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1289435812,
+                        "Rank": 54.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.120297776,
+                        "Rank": 45.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0243078254,
+                        "Rank": 50.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Cayuga",
+                    "County FIPS": "36011",
+                    "QualityofLife": {
+                        "Z-Score": -0.335006557,
+                        "Rank": 11.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1962762827,
+                        "Rank": 55.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0327328469,
+                        "Rank": 43.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.002045375,
+                        "Rank": 29.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0211641876,
+                        "Rank": 47.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Chautauqua",
+                    "County FIPS": "36013",
+                    "QualityofLife": {
+                        "Z-Score": 0.4360390567,
+                        "Rank": 58.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3419078251,
+                        "Rank": 62.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.055131151,
+                        "Rank": 21.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2224968005,
+                        "Rank": 55.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.029101169,
+                        "Rank": 13.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Chemung",
+                    "County FIPS": "36015",
+                    "QualityofLife": {
+                        "Z-Score": 0.2745658195,
+                        "Rank": 52.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2292863106,
+                        "Rank": 57.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.033904006,
+                        "Rank": 24.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.234617143,
+                        "Rank": 56.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.04468982,
+                        "Rank": 9.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Chenango",
+                    "County FIPS": "36017",
+                    "QualityofLife": {
+                        "Z-Score": -0.013872179,
+                        "Rank": 28.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0862641478,
+                        "Rank": 41.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.00214417,
+                        "Rank": 34.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0412133819,
+                        "Rank": 33.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.053004622,
+                        "Rank": 4.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Clinton",
+                    "County FIPS": "36019",
+                    "QualityofLife": {
+                        "Z-Score": 0.130949363,
+                        "Rank": 40.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1903508782,
+                        "Rank": 54.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.024631846,
+                        "Rank": 28.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0540404152,
+                        "Rank": 34.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.006873443,
+                        "Rank": 24.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Columbia",
+                    "County FIPS": "36021",
+                    "QualityofLife": {
+                        "Z-Score": -0.54099512,
+                        "Rank": 6.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.105270776,
+                        "Rank": 16.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0131349615,
+                        "Rank": 38.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.184214157,
+                        "Rank": 13.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.052265208,
+                        "Rank": 5.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Cortland",
+                    "County FIPS": "36023",
+                    "QualityofLife": {
+                        "Z-Score": 0.1269127012,
+                        "Rank": 38.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.050745121,
+                        "Rank": 36.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.076420553,
+                        "Rank": 15.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0546702706,
+                        "Rank": 35.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0067424678,
+                        "Rank": 37.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Delaware",
+                    "County FIPS": "36025",
+                    "QualityofLife": {
+                        "Z-Score": -0.141352344,
+                        "Rank": 23.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0820463224,
+                        "Rank": 39.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1219873365,
+                        "Rank": 51.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2118288295,
+                        "Rank": 53.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.064091723,
+                        "Rank": 2.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Dutchess",
+                    "County FIPS": "36027",
+                    "QualityofLife": {
+                        "Z-Score": -0.195407813,
+                        "Rank": 20.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.215289972,
+                        "Rank": 8.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.062967622,
+                        "Rank": 18.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.294467683,
+                        "Rank": 8.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0412278614,
+                        "Rank": 55.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Erie",
+                    "County FIPS": "36029",
+                    "QualityofLife": {
+                        "Z-Score": 0.3787867552,
+                        "Rank": 56.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.064885433,
+                        "Rank": 38.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.110796036,
+                        "Rank": 9.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.004742591,
+                        "Rank": 30.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0679563351,
+                        "Rank": 60.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Essex",
+                    "County FIPS": "36031",
+                    "QualityofLife": {
+                        "Z-Score": -0.256786743,
+                        "Rank": 15.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.071905701,
+                        "Rank": 18.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.012392656,
+                        "Rank": 31.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.029102006,
+                        "Rank": 28.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.033050992,
+                        "Rank": 12.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Franklin",
+                    "County FIPS": "36033",
+                    "QualityofLife": {
+                        "Z-Score": 0.4061520863,
+                        "Rank": 57.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2531189017,
+                        "Rank": 58.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0237187637,
+                        "Rank": 40.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2535743472,
+                        "Rank": 58.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.005422622,
+                        "Rank": 26.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Fulton",
+                    "County FIPS": "36035",
+                    "QualityofLife": {
+                        "Z-Score": 0.2538534525,
+                        "Rank": 49.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1223909685,
+                        "Rank": 46.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.102751075,
+                        "Rank": 50.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.238938376,
+                        "Rank": 57.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.056980411,
+                        "Rank": 3.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Genesee",
+                    "County FIPS": "36037",
+                    "QualityofLife": {
+                        "Z-Score": -0.044453843,
+                        "Rank": 26.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.044262834,
+                        "Rank": 34.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0519362078,
+                        "Rank": 45.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.227017557,
+                        "Rank": 10.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0424937663,
+                        "Rank": 56.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Greene",
+                    "County FIPS": "36039",
+                    "QualityofLife": {
+                        "Z-Score": 0.2000554835,
+                        "Rank": 43.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.067833941,
+                        "Rank": 20.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1361233037,
+                        "Rank": 56.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0827317407,
+                        "Rank": 38.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0061934723,
+                        "Rank": 35.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Hamilton",
+                    "County FIPS": "36041",
+                    "QualityofLife": {
+                        "Z-Score": -1.024963964,
+                        "Rank": 1.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.128095689,
+                        "Rank": 14.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.067531525,
+                        "Rank": 17.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1525279374,
+                        "Rank": 49.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.107571725,
+                        "Rank": 1.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Herkimer",
+                    "County FIPS": "36043",
+                    "QualityofLife": {
+                        "Z-Score": -0.004650534,
+                        "Rank": 30.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2019449993,
+                        "Rank": 56.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0972998832,
+                        "Rank": 49.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0970187294,
+                        "Rank": 41.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.007880472,
+                        "Rank": 21.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Jefferson",
+                    "County FIPS": "36045",
+                    "QualityofLife": {
+                        "Z-Score": -0.004799375,
+                        "Rank": 29.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3263026057,
+                        "Rank": 61.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.080761221,
+                        "Rank": 13.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0969439677,
+                        "Rank": 40.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.008801625,
+                        "Rank": 20.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Kings",
+                    "County FIPS": "36047",
+                    "QualityofLife": {
+                        "Z-Score": 0.2047892138,
+                        "Rank": 44.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.144735444,
+                        "Rank": 11.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1249244941,
+                        "Rank": 52.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3751336361,
+                        "Rank": 61.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0266976905,
+                        "Rank": 53.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Lewis",
+                    "County FIPS": "36049",
+                    "QualityofLife": {
+                        "Z-Score": -0.371588903,
+                        "Rank": 9.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1339684608,
+                        "Rank": 48.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.031217854,
+                        "Rank": 25.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1673427762,
+                        "Rank": 50.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.020995222,
+                        "Rank": 15.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Livingston",
+                    "County FIPS": "36051",
+                    "QualityofLife": {
+                        "Z-Score": -0.283020107,
+                        "Rank": 12.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.066396103,
+                        "Rank": 23.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0351122227,
+                        "Rank": 44.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.140814259,
+                        "Rank": 16.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0461308825,
+                        "Rank": 58.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Madison",
+                    "County FIPS": "36053",
+                    "QualityofLife": {
+                        "Z-Score": -0.387183105,
+                        "Rank": 8.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0157916857,
+                        "Rank": 32.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.059369022,
+                        "Rank": 20.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.093212445,
+                        "Rank": 20.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0052923412,
+                        "Rank": 34.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Monroe",
+                    "County FIPS": "36055",
+                    "QualityofLife": {
+                        "Z-Score": 0.2578025485,
+                        "Rank": 50.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.032046788,
+                        "Rank": 25.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.062633494,
+                        "Rank": 19.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.031325205,
+                        "Rank": 27.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.006310137,
+                        "Rank": 25.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Montgomery",
+                    "County FIPS": "36057",
+                    "QualityofLife": {
+                        "Z-Score": 0.2651197531,
+                        "Rank": 51.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1460995137,
+                        "Rank": 49.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0115544808,
+                        "Rank": 36.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3555184369,
+                        "Rank": 60.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0104654918,
+                        "Rank": 40.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Nassau",
+                    "County FIPS": "36059",
+                    "QualityofLife": {
+                        "Z-Score": -0.281477433,
+                        "Rank": 13.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.491696482,
+                        "Rank": 1.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.158109583,
+                        "Rank": 4.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.53532505,
+                        "Rank": 3.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0191704898,
+                        "Rank": 45.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "New York",
+                    "County FIPS": "36061",
+                    "QualityofLife": {
+                        "Z-Score": 0.00817422,
+                        "Rank": 31.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.314429418,
+                        "Rank": 4.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.156511638,
+                        "Rank": 5.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1221637118,
+                        "Rank": 46.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0084169644,
+                        "Rank": 38.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Niagara",
+                    "County FIPS": "36063",
+                    "QualityofLife": {
+                        "Z-Score": 0.4413181528,
+                        "Rank": 59.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1686893438,
+                        "Rank": 53.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0605146857,
+                        "Rank": 46.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1144251925,
+                        "Rank": 44.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0251119064,
+                        "Rank": 52.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Oneida",
+                    "County FIPS": "36065",
+                    "QualityofLife": {
+                        "Z-Score": 0.2436030075,
+                        "Rank": 47.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0939823505,
+                        "Rank": 43.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.018807349,
+                        "Rank": 29.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1120150241,
+                        "Rank": 43.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0026731586,
+                        "Rank": 30.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Onondaga",
+                    "County FIPS": "36067",
+                    "QualityofLife": {
+                        "Z-Score": -0.025426647,
+                        "Rank": 27.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.005464957,
+                        "Rank": 28.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.180850823,
+                        "Rank": 3.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.049059831,
+                        "Rank": 26.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0092274702,
+                        "Rank": 39.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Ontario",
+                    "County FIPS": "36069",
+                    "QualityofLife": {
+                        "Z-Score": -0.406105639,
+                        "Rank": 7.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.060202974,
+                        "Rank": 24.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0126539643,
+                        "Rank": 37.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.320632839,
+                        "Rank": 6.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.015369421,
+                        "Rank": 17.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Orange",
+                    "County FIPS": "36071",
+                    "QualityofLife": {
+                        "Z-Score": 0.0177311998,
+                        "Rank": 34.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.091951685,
+                        "Rank": 17.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0022436693,
+                        "Rank": 35.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.166929439,
+                        "Rank": 14.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.045275449,
+                        "Rank": 57.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Orleans",
+                    "County FIPS": "36073",
+                    "QualityofLife": {
+                        "Z-Score": 0.2346008644,
+                        "Rank": 46.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1619151072,
+                        "Rank": 51.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2020749886,
+                        "Rank": 60.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1009499185,
+                        "Rank": 42.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0049475288,
+                        "Rank": 32.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Oswego",
+                    "County FIPS": "36075",
+                    "QualityofLife": {
+                        "Z-Score": 0.1566811517,
+                        "Rank": 42.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3035642806,
+                        "Rank": 60.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.030538612,
+                        "Rank": 26.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3080726813,
+                        "Rank": 59.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0304443698,
+                        "Rank": 54.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Otsego",
+                    "County FIPS": "36077",
+                    "QualityofLife": {
+                        "Z-Score": -0.243787587,
+                        "Rank": 18.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0023583392,
+                        "Rank": 30.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.090423404,
+                        "Rank": 11.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.106622273,
+                        "Rank": 19.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.013127983,
+                        "Rank": 18.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Putnam",
+                    "County FIPS": "36079",
+                    "QualityofLife": {
+                        "Z-Score": -0.356535666,
+                        "Rank": 10.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.220272467,
+                        "Rank": 7.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.050121121,
+                        "Rank": 22.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.557050446,
+                        "Rank": 2.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0049795876,
+                        "Rank": 33.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Queens",
+                    "County FIPS": "36081",
+                    "QualityofLife": {
+                        "Z-Score": 0.032093167,
+                        "Rank": 36.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.296812897,
+                        "Rank": 5.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2269119787,
+                        "Rank": 61.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0592906651,
+                        "Rank": 36.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.007115538,
+                        "Rank": 23.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Rensselaer",
+                    "County FIPS": "36083",
+                    "QualityofLife": {
+                        "Z-Score": 0.0172725488,
+                        "Rank": 33.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0093855459,
+                        "Rank": 31.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.041948046,
+                        "Rank": 23.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.220748919,
+                        "Rank": 11.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.034236595,
+                        "Rank": 11.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Richmond",
+                    "County FIPS": "36085",
+                    "QualityofLife": {
+                        "Z-Score": 0.3644261108,
+                        "Rank": 55.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.160192267,
+                        "Rank": 10.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.077915565,
+                        "Rank": 14.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0857496889,
+                        "Rank": 39.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0247011766,
+                        "Rank": 51.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Rockland",
+                    "County FIPS": "36087",
+                    "QualityofLife": {
+                        "Z-Score": -0.567205632,
+                        "Rank": 3.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.403594136,
+                        "Rank": 3.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.087124528,
+                        "Rank": 12.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.186767064,
+                        "Rank": 12.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0766724784,
+                        "Rank": 62.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "St. Lawrence",
+                    "County FIPS": "36089",
+                    "QualityofLife": {
+                        "Z-Score": 0.208207744,
+                        "Rank": 45.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1268502253,
+                        "Rank": 47.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.002927994,
+                        "Rank": 33.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.215797462,
+                        "Rank": 54.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.013908106,
+                        "Rank": 42.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Saratoga",
+                    "County FIPS": "36091",
+                    "QualityofLife": {
+                        "Z-Score": -0.55867853,
+                        "Rank": 4.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.142161275,
+                        "Rank": 12.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.152625099,
+                        "Rank": 6.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.562040459,
+                        "Rank": 1.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0182913274,
+                        "Rank": 44.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Schenectady",
+                    "County FIPS": "36093",
+                    "QualityofLife": {
+                        "Z-Score": 0.2941074466,
+                        "Rank": 54.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.004239009,
+                        "Rank": 29.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.123334625,
+                        "Rank": 8.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.069201912,
+                        "Rank": 21.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.019998302,
+                        "Rank": 46.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Schoharie",
+                    "County FIPS": "36095",
+                    "QualityofLife": {
+                        "Z-Score": -0.141722524,
+                        "Rank": 22.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.014952714,
+                        "Rank": 27.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0273951811,
+                        "Rank": 42.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0185069144,
+                        "Rank": 31.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.007464062,
+                        "Rank": 22.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Schuyler",
+                    "County FIPS": "36097",
+                    "QualityofLife": {
+                        "Z-Score": 0.0520164643,
+                        "Rank": 37.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.067624967,
+                        "Rank": 21.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1714495622,
+                        "Rank": 58.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1959680148,
+                        "Rank": 52.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0123176307,
+                        "Rank": 41.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Seneca",
+                    "County FIPS": "36099",
+                    "QualityofLife": {
+                        "Z-Score": -0.248612555,
+                        "Rank": 17.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0245734311,
+                        "Rank": 33.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0862020484,
+                        "Rank": 47.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0207334217,
+                        "Rank": 32.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0230575921,
+                        "Rank": 48.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Steuben",
+                    "County FIPS": "36101",
+                    "QualityofLife": {
+                        "Z-Score": 0.0166820028,
+                        "Rank": 32.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1513661795,
+                        "Rank": 50.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.024925099,
+                        "Rank": 27.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0801548443,
+                        "Rank": 37.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.049903113,
+                        "Rank": 6.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Suffolk",
+                    "County FIPS": "36103",
+                    "QualityofLife": {
+                        "Z-Score": -0.273603495,
+                        "Rank": 14.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.260443613,
+                        "Rank": 6.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.005043013,
+                        "Rank": 32.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.320772432,
+                        "Rank": 5.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0023772133,
+                        "Rank": 27.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Sullivan",
+                    "County FIPS": "36105",
+                    "QualityofLife": {
+                        "Z-Score": 0.8137922707,
+                        "Rank": 61.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0512245181,
+                        "Rank": 37.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1286818784,
+                        "Rank": 53.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1824162605,
+                        "Rank": 51.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.028549839,
+                        "Rank": 14.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Tioga",
+                    "County FIPS": "36107",
+                    "QualityofLife": {
+                        "Z-Score": -0.059005228,
+                        "Rank": 25.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.025742761,
+                        "Rank": 26.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.016169214,
+                        "Rank": 39.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.054580052,
+                        "Rank": 25.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.039690612,
+                        "Rank": 10.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Tompkins",
+                    "County FIPS": "36109",
+                    "QualityofLife": {
+                        "Z-Score": -0.238874878,
+                        "Rank": 19.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.212699121,
+                        "Rank": 9.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.230910728,
+                        "Rank": 1.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.32317238,
+                        "Rank": 4.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0023883507,
+                        "Rank": 28.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Ulster",
+                    "County FIPS": "36111",
+                    "QualityofLife": {
+                        "Z-Score": -0.111341708,
+                        "Rank": 24.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.110798993,
+                        "Rank": 15.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0243743089,
+                        "Rank": 41.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.117258194,
+                        "Rank": 17.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.018212534,
+                        "Rank": 16.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Warren",
+                    "County FIPS": "36113",
+                    "QualityofLife": {
+                        "Z-Score": -0.544138225,
+                        "Rank": 5.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.066456302,
+                        "Rank": 22.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.225791299,
+                        "Rank": 2.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.068697518,
+                        "Rank": 22.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.048875254,
+                        "Rank": 7.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Washington",
+                    "County FIPS": "36115",
+                    "QualityofLife": {
+                        "Z-Score": 0.1401969757,
+                        "Rank": 41.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0939517527,
+                        "Rank": 42.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.015162559,
+                        "Rank": 30.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.058249627,
+                        "Rank": 24.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0181236698,
+                        "Rank": 43.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Wayne",
+                    "County FIPS": "36117",
+                    "QualityofLife": {
+                        "Z-Score": 0.2534256471,
+                        "Rank": 48.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.162651807,
+                        "Rank": 52.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1745954096,
+                        "Rank": 59.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.1527673,
+                        "Rank": 15.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.012558239,
+                        "Rank": 19.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Westchester",
+                    "County FIPS": "36119",
+                    "QualityofLife": {
+                        "Z-Score": -0.179559128,
+                        "Rank": 21.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.471265648,
+                        "Rank": 2.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.104070219,
+                        "Rank": 10.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.319835359,
+                        "Rank": 7.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0726904467,
+                        "Rank": 61.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Wyoming",
+                    "County FIPS": "36121",
+                    "QualityofLife": {
+                        "Z-Score": -0.249053133,
+                        "Rank": 16.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1012222124,
+                        "Rank": 44.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1351968998,
+                        "Rank": 55.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.10804182,
+                        "Rank": 18.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0234977387,
+                        "Rank": 49.0
+                    }
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Yates",
+                    "County FIPS": "36123",
+                    "QualityofLife": {
+                        "Z-Score": -0.716552645,
+                        "Rank": 2.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.071220181,
+                        "Rank": 19.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1445535752,
+                        "Rank": 57.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.062488276,
+                        "Rank": 23.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0031003358,
+                        "Rank": 31.0
+                    }
+                }
+            }
+        ]
+    }
+]

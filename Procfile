@@ -1,1 +1,1 @@
-web: gunicorn healthi.app:app
+web: gunicorn testhealthy.app:app
