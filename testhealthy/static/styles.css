@@ -1,45 +1,61 @@
-.panel-info{
-    text-align: center;
+.jumbotron { 
+    background-color: grey;
+    color: #ffffff;
+    padding: 100px 25px;
+
 }
 
-.jumbotron{
-    margin-top: 20px;
-    background-image: url("bacteria_by_filterforgedotcom.jpg");
-    background-size: cover;
-    color:rgb(255, 255, 255);
-    text-align: center;
+.bg-grey {
+    background-color: #f6f6f6;
 }
 
-#PieArea,
-#GaugeArea,
-#ScatterplotArea{
-    border-width:2px;
-    border-color: rgb(54, 33, 173);
-    border-style: solid;
-    margin:20px;
-    text-align: center;
-    align: center;
-    font-size: 22px;
-    background-color: #FFF;
+.container-fluid {
+ padding: 60px 50px;
 }
 
-#PieArea,
-#GaugeArea{
-    width:520;
-    height:520;
-}
-#ScatterplotArea{
-    width: 1315;
-    height: 575;
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
 }
 
-.footer-copyright{
-    background-color: rgb(6, 59, 15); 
-    color: rgb(255, 255, 255);
-    text-align: center;
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
 }
 
-.body{
-    background-color: rgb(162, 218, 136);
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
 }
 
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+padding-top: 20px;
+background-color: #f1f1f1;
+height: 100%;
+}

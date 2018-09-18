@@ -175,7 +175,7 @@ def JSON_from_excel():
         # db=client.healthi_db
         
         # #Connection for remote host
-        conn = 'mongodb://healthi_admin:healthisrs9=@ds255332.mlab.com:55332/healthi_db'
+        conn = 'mongodb://<add user Pwd here>@ds255332.mlab.com:55332/healthi_db'
         client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
         db = client.get_default_database()
 
@@ -203,7 +203,8 @@ JSON_from_excel()
 #Pragati : 9/14/2018. Updated and cleaned the code (Note: Verified by re-running the code
 #          locally. 
 #          Note: Did all this at this state to avoid any last minutes bug & error.
-
+## Updated & Tested Riicha : 9/15/2018 Web Scaped & Added # 1. Lat & Long of counties.2. Link to Wiki 
+# 3. population & 4. Area etc
 
         
 
