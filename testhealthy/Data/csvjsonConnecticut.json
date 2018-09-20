@@ -1,65 +1,57 @@
 [
-  {
-    "State": "Connecticut",
-    "FIPS": "09000",
-    "County": "",
-    "Z-Score": "",
-    "Rank": ""
-  },
-  {
-    "State": "",
-    "FIPS": "09001",
-    "County": "Fairfield",
-    "Z-Score": -0.31,
-    "Rank": 4
-  },
-  {
-    "State": "",
-    "FIPS": "09003",
-    "County": "Hartford",
-    "Z-Score": 0.19,
-    "Rank": 5
-  },
-  {
-    "State": "",
-    "FIPS": "09005",
-    "County": "Litchfield",
-    "Z-Score": -0.33,
-    "Rank": 3
-  },
-  {
-    "State": "",
-    "FIPS": "09007",
-    "County": "Middlesex",
-    "Z-Score": -0.78,
-    "Rank": 1
-  },
-  {
-    "State": "",
-    "FIPS": "09009",
-    "County": "New Haven",
-    "Z-Score": 0.59,
-    "Rank": 7
-  },
-  {
-    "State": "",
-    "FIPS": "09011",
-    "County": "New London",
-    "Z-Score": 0.3,
-    "Rank": 6
-  },
-  {
-    "State": "",
-    "FIPS": "09013",
-    "County": "Tolland",
-    "Z-Score": -0.43,
-    "Rank": 2
-  },
-  {
-    "State": "",
-    "FIPS": "09015",
-    "County": "Windham",
-    "Z-Score": 0.77,
-    "Rank": 8
-  }
+    {
+      "State": "Connecticut",
+      "FIPS": "09000",
+      "CountyDetails":
+      [ 
+        {
+        "FIPS": "09001",
+        "County": "Fairfield",
+        "Z-Score": -0.31,
+        "Rank": 4
+        },
+        {
+        "FIPS": "09003",
+        "County": "Hartford",
+        "Z-Score": 0.19,
+        "Rank": 5
+        },
+        {
+        "FIPS": "09005",
+        "County": "Litchfield",
+        "Z-Score": -0.33,
+        "Rank": 3
+        },
+        {
+        "FIPS": "09007",
+        "County": "Middlesex",
+        "Z-Score": -0.78,
+        "Rank": 1
+        },
+        {
+        "FIPS": "09009",
+        "County": "New Haven",
+        "Z-Score": 0.59,
+        "Rank": 7
+        },
+        {
+        "FIPS": "09011",
+        "County": "New London",
+        "Z-Score": 0.3,
+        "Rank": 6
+        },
+        {
+        "FIPS": "09013",
+        "County": "Tolland",
+        "Z-Score": -0.43,
+        "Rank": 2
+        },
+        {
+        "FIPS": "09015",
+        "County": "Windham",
+        "Z-Score": 0.77,
+        "Rank": 8
+        }
+     ]  
+    }
 ]

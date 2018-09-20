@@ -1,200 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Select-a-healthy-county</title>
+  <title>Healthy_County</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-
-  <!-- Inline Styling -->
-  <style>
-        .jumbotron { 
-            background-color: grey;
-            color: #ffffff;
-            padding: 100px 25px;
-
-        }
-
-        .bg-grey {
-            background-color: #f6f6f6;
-        }
-
-        .container-fluid {
-         padding: 60px 50px;
-        }
-
-        .thumbnail {
-            padding: 0 0 15px 0;
-            border: none;
-            border-radius: 0;
-        }
-
-        .thumbnail img {
-            width: 100%;
-            height: 100%;
-            margin-bottom: 10px;
-        }
-
-        .navbar {
-            margin-bottom: 0;
-            background-color: #f4511e;
-            z-index: 9999;
-            border: 0;
-            font-size: 12px !important;
-            line-height: 1.42857143 !important;
-            letter-spacing: 4px;
-            border-radius: 0;
-        }
-
-        .navbar li a, .navbar .navbar-brand {
-            color: #fff !important;
-        }
-
-        .navbar-nav li a:hover, .navbar-nav li.active a {
-            color: #f4511e !important;
-            background-color: #fff !important;
-        }
-
-        .navbar-default .navbar-toggle {
-            border-color: transparent;
-            color: #fff !important;
-        }
-
-        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-        .row.content {height: 450px}
-        
-        /* Set gray background color and 100% height */
-        .sidenav {
-        padding-top: 20px;
-        background-color: #f1f1f1;
-        height: 100%;
-        }
-
-        tr:hover td {background:olivedrab}
-   </style>
-   
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">   
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>  
+<style>  
+  tr:hover td {background:olivedrab}
+</style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-        
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">   
     <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span> 
-                    </button>
-                    <a class="navbar-brand" href="#myPage">Select-a-healthy-county!</a>
-                  </div>
-                  <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#county">State and County Selector</a></li>
-                      <li><a href="#attribute">Attribute Selector</a></li>
-                      <li><a href="#portfolio">Project</a></li>
-                    </ul>
-                  </div>
-                </div>
-        </nav>
-
-    <!-- Use Case 1 : State and County Drop down for ranks and plots -->
-        <div class="jumbotron text-center"> <div id="county" class="container">
-
-            <!-- Marquee tag -->
-                <div>
-                        <h3>
-                            <marquee>Some text + .svg can scroll here</marquee>
-                            <img id="leafImage">
-                        </h3>
-                </div>
-
-            <!-- Drop down panel -->
-            <div class="row content">
-                <div class="col-md-4 text-center">                    
-                        <select class="form-control" id="stateselect"> <option value="empty">Select State</option>
-                        </select>
-                    <hr>
-                        <select class="form-control" id="countyselect">
-                                    <option value="empty">Select County</option>
-                        </select>
-
-                    <hr>
-                    <!-- County Background Panel -->
-                    <div class="row">
-                            <div class="col-md-12">
-                                <div class="metadata-of-sample">
-                                    <h4 class="card-title text-dark" style="color: orange">
-                                        County Details
-                                    </h4>
-                                    <table id="county-background" class="table table-hover">
-                                        <thead>
-                                            <tr id="sample-metadata">
-                                                <td><strong> Attribute</strong></td>
-                                                <td><strong> Rank</strong></td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-                    </div>
-
-                </div>
-                
-                <div class="col-md-1"> </div>
-
-                <!-- Plot Panel -->
-                <div class="col-md-7 sidenav">
-                        <div class="row">
-                                <div class="container">
-                                    <div class="bubble">
-        
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-
-                </div>
-
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#myPage">Healthy County</a>
             </div>
-
-        <hr>
-
-        <!-- Use Case 2 -->
-
-        <div class="jumbotron text-center"> <div id="attribute" class="container-fluid">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right"> 
+                    <li><a href="#county">State and County Selector</a></li>
+                    <li><a href="#state">State Selector</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <li><a href="#aboutproject">About Project</a></li>
+                    <li><a href="#aboutus">About Us</a></li>  
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Use Case 1 : State and County Drop down for ranks and plots -->
+    <div class="jumbotron jumbotron-fluid text-center"> <div id="county" class="container">
+        <!-- Marquee tag -->
+        <div>
+            <h3>
+                <marquee bg>World Health Organization holistic definition of health - Health is a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity. It matters where we live!!!</marquee>
+                <img id="leafImage">
+            </h3>
+        </div>
+        <!-- Drop down panel -->
+        <div class="row content">
+            <div class="col-md-4 text-center">                    
+                    <select class="form-control" id="stateselect"> <option value="empty">Select State</option>
+                    </select>
+                <hr>
+                    <select class="form-control" id="countyselect">
+                                <option value="empty">Select County</option>
+                    </select>
+                <!-- County Background Panel -->
                 <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                
-                                <div class="col-md-6">
-                                    <div class="panel panel-primary dropdown">
-                                        <div class="panel-heading">
-                                                <h5>Preference 1</h5>
-                                        </div>
-                
-                                        <div class="panel-body">
-                                                <select id="selDataset" aria-placeholder="Select Sample" onchange="optionChanged(this.value)">
-                                                </select>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                               
-        
+                        <div class="col-md-12">
+                            <div class="metadata-of-sample">
+
+                                <h4 id="count" style="color: lightgreen"></h4>
+                                <hr>
+                                <table id="county-background" class="table table-hover">
+                                    <thead>
+                                        <tr id="sample-metadata">
+                                            <td align="left" style="color: orange"><strong> Attribute </strong></td>
+                                            <td align="left" style="color: orange"><strong> County Rank</strong></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody align="left">
+
+                                    </tbody>
+                                </table>
+
                             </div>
                         </div>
                 </div>
+
+            </div>
+            
+            <div class="col-md-1"> </div>
+
+        
+
+            <!-- Plot Panel -->
+            <div class="col-md-7 sidenav">
+                    <div>
+                            <select class="form-control" id="attributerank"> 
+                                <option value="empty">Select Attribute</option>
+                                <option value = "Quality of Life">Quality of Life</option>
+                                <option value = "Economic Factors">Economic Factors</option>
+                                <option value = "Physical Environment">Physical Environment</option>
+                                <option value = "Health Behaviours">Health Behaviours</option>
+                                <option value = "Clinical Care">Clinical Care</option>
+                            </select>
+                    </div> <br>
+                <div id = "map"></div>
+            </div>
+
+            </div>
+
         </div>
 
-        <hr>
-
-        <!-- Project Area -->
+    <hr>
+    <!-- Use Case 2 : Top 10 counties of a selected state-->
+    <div class="jumbotron text-center"> 
+        <div id="state" class="container"> 
+            <div class="row">
+                <h4>Top 10 Counties of a State based on Health Factors</h4>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">                    
+                        <select class="form-control" id="stateselect2"> <option value="empty">Select State</option>
+                        </select>
+                </div>
+                <div id="top10counties" class="col-lg-8">  
+                        <img src="../Images/USAMap.jpg" alt="USAMap" style="width:400px;height:400px;">
+                        <p class="text-center sub-head">USA Map</p>            
+                </div> 
+            <!-- Top 10 County Panel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="top-10-counties">
+                        <h4 class="card-title text-dark" style="color: orange">
+                            Top 10 Counties
+                        </h4>
+                        <table id="county-background2" class="table table-hover">
+                            <thead>
+                                <tr id="top-10-counties-table">
+                                    <td style="color: orange"><strong> County </strong></td>
+                                    <td style="color: orange"><strong> County Rank</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>           
+            </div>  
+        </div>
+    </div>
+    <hr>
+        <!-- Project Area
         <div class="container-fluid text-center"> <div id="portfolio" class="container-fluid">
                 <h2>Our Visualizations!</h2>
                 <h4>What we have created</h4>
@@ -221,6 +178,51 @@
                     </div>
                   </div>
         </div>
+        <hr> -->
+        <!-- About our Project -->
+        <div class="jumbotron text-center"> <div id="aboutproject" class="container-fluid">
+                <div class ="row">
+                        <div class="col-lg-12">  
+                            <h2>About our project: Healthy County</h2>
+                            <p>Is “Health” only about medical facilities and annual health checkup?</p>  
+                            <hr>
+                            <p>As per the World Health Organization holistic definition of health:</p> 
+                            <p>Health is a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity. </p>
+                        </div>
+                </div>
+        </div> 
+        <hr>               
+        <!-- About us -->
+        <div class="jumbotron text-center"> <div id="aboutus" class="container-fluid">
+                <div class ="row">
+                    <div class="col-lg-12">  
+                        <h4>Healthy County Team</h4>
+                        <br>  
+                    </div>
+                </div>         
+                <div class="row">
+                    <div class="col-lg-6">  
+                        <img src="../Images/health1.jpg" alt="Pragati" style="width:100px;height:100px;">
+                        <p class="text-center sub-head">Pragati Mehta</p>            
+                    </div>
+                    <div class="col-lg-6">
+                            <img src="../Images/health2.jpg" alt="Riicha" style="width:100px;height:100px;">
+                    <p class="text-center sub-head">Riicha Mohan</p>           
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">  
+                        <img src="../Images/health3.jpg"
+                                alt="Siva" style="width:100px;height:100px;">
+                        <p class="text-center sub-head">Siva</p>             
+                    </div>
+                        <div class="col-lg-6">
+                            <img src="../Images/health4.jpg" alt="Supriya" style="width:100px;height:100px;">
+                            <p class="text-center sub-head">Supriya Sathpathy</p>           
+                        </div>
+                    </div>        
+                </div> 
+        </div>          
 
 </body>
 
@@ -229,6 +231,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
 <script src="{{ url_for('static', filename='countyselection.js') }}"></script>
+<script src="{{ url_for('static', filename='top10CountiesbyRank.js') }}"></script>
+
 
 
 </html>

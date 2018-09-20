@@ -1,212 +1,183 @@
 [
-  {
-    "State": "Alaska",
-    "FIPS": "02000",
-    "County": "",
-    "Z-Score": "",
-    "Rank": ""
-  },
-  {
-    "State": "",
-    "FIPS": "02013",
-    "County": "Aleutians East",
-    "Z-Score": "",
-    "Rank": "NR"
-  },
-  {
-    "State": "",
-    "FIPS": "02016",
-    "County": "Aleutians West",
-    "Z-Score": -0.35,
-    "Rank": 9
-  },
-  {
-    "State": "",
-    "FIPS": "02020",
-    "County": "Anchorage",
-    "Z-Score": -0.64,
-    "Rank": 2
-  },
-  {
-    "State": "",
-    "FIPS": "02050",
-    "County": "Bethel",
-    "Z-Score": 0.8,
-    "Rank": 23
-  },
-  {
-    "State": "",
-    "FIPS": "02060",
-    "County": "Bristol Bay",
-    "Z-Score": -0.08,
-    "Rank": 15
-  },
-  {
-    "State": "",
-    "FIPS": "02068",
-    "County": "Denali",
-    "Z-Score": -0.44,
-    "Rank": 7
-  },
-  {
-    "State": "",
-    "FIPS": "02070",
-    "County": "Dillingham",
-    "Z-Score": 0.46,
-    "Rank": 19
-  },
-  {
-    "State": "",
-    "FIPS": "02090",
-    "County": "Fairbanks North Star",
-    "Z-Score": -0.48,
-    "Rank": 6
-  },
-  {
-    "State": "",
-    "FIPS": "02100",
-    "County": "Haines",
-    "Z-Score": -0.51,
-    "Rank": 5
-  },
-  {
-    "State": "",
-    "FIPS": "02105",
-    "County": "Hoonah-Angoon",
-    "Z-Score": 0.19,
-    "Rank": 17
-  },
-  {
-    "State": "",
-    "FIPS": "02110",
-    "County": "Juneau",
-    "Z-Score": -0.75,
-    "Rank": 1
-  },
-  {
-    "State": "",
-    "FIPS": "02122",
-    "County": "Kenai Peninsula",
-    "Z-Score": -0.32,
-    "Rank": 10
-  },
-  {
-    "State": "",
-    "FIPS": "02130",
-    "County": "Ketchikan Gateway",
-    "Z-Score": -0.26,
-    "Rank": 12
-  },
-  {
-    "State": "",
-    "FIPS": "02150",
-    "County": "Kodiak Island",
-    "Z-Score": -0.58,
-    "Rank": 4
-  },
-  {
-    "State": "",
-    "FIPS": "02158",
-    "County": "Kusilvak",
-    "Z-Score": 1.11,
-    "Rank": 25
-  },
-  {
-    "State": "",
-    "FIPS": "02164",
-    "County": "Lake and Peninsula",
-    "Z-Score": 0.51,
-    "Rank": 20
-  },
-  {
-    "State": "",
-    "FIPS": "02170",
-    "County": "Matanuska-Susitna",
-    "Z-Score": -0.26,
-    "Rank": 13
-  },
-  {
-    "State": "",
-    "FIPS": "02180",
-    "County": "Nome",
-    "Z-Score": 0.64,
-    "Rank": 21
-  },
-  {
-    "State": "",
-    "FIPS": "02185",
-    "County": "North Slope",
-    "Z-Score": 0.45,
-    "Rank": 18
-  },
-  {
-    "State": "",
-    "FIPS": "02188",
-    "County": "Northwest Arctic",
-    "Z-Score": 0.91,
-    "Rank": 24
-  },
-  {
-    "State": "",
-    "FIPS": "02195",
-    "County": "Petersburg",
-    "Z-Score": -0.35,
-    "Rank": 8
-  },
-  {
-    "State": "",
-    "FIPS": "02198",
-    "County": "Prince of Wales-Hyder",
-    "Z-Score": 0.19,
-    "Rank": 16
-  },
-  {
-    "State": "",
-    "FIPS": "02220",
-    "County": "Sitka",
-    "Z-Score": -0.59,
-    "Rank": 3
-  },
-  {
-    "State": "",
-    "FIPS": "02230",
-    "County": "Skagway",
-    "Z-Score": "",
-    "Rank": "NR"
-  },
-  {
-    "State": "",
-    "FIPS": "02240",
-    "County": "Southeast Fairbanks",
-    "Z-Score": -0.16,
-    "Rank": 14
-  },
-  {
-    "State": "",
-    "FIPS": "02261",
-    "County": "Valdez-Cordova",
-    "Z-Score": -0.27,
-    "Rank": 11
-  },
-  {
-    "State": "",
-    "FIPS": "02275",
-    "County": "Wrangell",
-    "Z-Score": "",
-    "Rank": "NR"
-  },
-  {
-    "State": "",
-    "FIPS": "02282",
-    "County": "Yakutat",
-    "Z-Score": "",
-    "Rank": "NR"
-  },
-  {
-    "State": "",
-    "FIPS": "02290",
-    "County": "Yukon-Koyukuk",
-    "Z-Score": 0.79,
-    "Rank": 22
-  }
-]
+    {
+        "State": "Alaska",
+        "FIPS": "02000",
+        "CountyDetails":
+            [
+                {
+                "FIPS": "02013",
+                "County": "Aleutians East",
+                "Z-Score": 0.0,
+                "Rank": 0
+                },
+                {
+                "FIPS": "02016",
+                "County": "Aleutians West",
+                "Z-Score": -0.35,
+                "Rank": 9
+                },
+                {
+                "FIPS": "02020",
+                "County": "Anchorage",
+                "Z-Score": -0.64,
+                "Rank": 2
+                },
+                {
+                "FIPS": "02050",
+                "County": "Bethel",
+                "Z-Score": 0.8,
+                "Rank": 23
+                },
+                {
+                "FIPS": "02060",
+                "County": "Bristol Bay",
+                "Z-Score": -0.08,
+                "Rank": 15
+                },
+                {
+                "FIPS": "02068",
+                "County": "Denali",
+                "Z-Score": -0.44,
+                "Rank": 7
+                },
+                {
+                "FIPS": "02070",
+                "County": "Dillingham",
+                "Z-Score": 0.46,
+                "Rank": 19
+                },
+                {
+                "FIPS": "02090",
+                "County": "Fairbanks North Star",
+                "Z-Score": -0.48,
+                "Rank": 6
+                },
+                {
+                "FIPS": "02100",
+                "County": "Haines",
+                "Z-Score": -0.51,
+                "Rank": 5
+                },
+                {
+                "FIPS": "02105",
+                "County": "Hoonah-Angoon",
+                "Z-Score": 0.19,
+                "Rank": 17
+                },
+                {
+                "FIPS": "02110",
+                "County": "Juneau",
+                "Z-Score": -0.75,
+                "Rank": 1
+                },
+                {
+                "FIPS": "02122",
+                "County": "Kenai Peninsula",
+                "Z-Score": -0.32,
+                "Rank": 10
+                },
+                {
+                "FIPS": "02130",
+                "County": "Ketchikan Gateway",
+                "Z-Score": -0.26,
+                "Rank": 12
+                },
+                {
+                "FIPS": "02150",
+                "County": "Kodiak Island",
+                "Z-Score": -0.58,
+                "Rank": 4
+                },
+                {
+                "FIPS": "02158",
+                "County": "Kusilvak",
+                "Z-Score": 1.11,
+                "Rank": 25
+                },
+                {
+                "FIPS": "02164",
+                "County": "Lake and Peninsula",
+                "Z-Score": 0.51,
+                "Rank": 20
+                },
+                {
+                "FIPS": "02170",
+                "County": "Matanuska-Susitna",
+                "Z-Score": -0.26,
+                "Rank": 13
+                },
+                {
+                "FIPS": "02180",
+                "County": "Nome",
+                "Z-Score": 0.64,
+                "Rank": 21
+                },
+                {
+                "FIPS": "02185",
+                "County": "North Slope",
+                "Z-Score": 0.45,
+                "Rank": 18
+                },
+                {
+                "FIPS": "02188",
+                "County": "Northwest Arctic",
+                "Z-Score": 0.91,
+                "Rank": 24
+                },
+                {
+                "FIPS": "02195",
+                "County": "Petersburg",
+                "Z-Score": -0.35,
+                "Rank": 8
+                },
+                {
+                "FIPS": "02198",
+                "County": "Prince of Wales-Hyder",
+                "Z-Score": 0.19,
+                "Rank": 16
+                },
+                {
+                "FIPS": "02220",
+                "County": "Sitka",
+                "Z-Score": -0.59,
+                "Rank": 3
+                },
+                {
+                "FIPS": "02230",
+                "County": "Skagway",
+                "Z-Score": 0.0,
+                "Rank": 0
+                },
+                {
+                "FIPS": "02240",
+                "County": "Southeast Fairbanks",
+                "Z-Score": -0.16,
+                "Rank": 14
+                },
+                {
+                "FIPS": "02261",
+                "County": "Valdez-Cordova",
+                "Z-Score": -0.27,
+                "Rank": 11
+                },
+                {
+                "FIPS": "02275",
+                "County": "Wrangell",
+                "Z-Score": 0.0,
+                "Rank": 0
+                },
+                {
+                "FIPS": "02282",
+                "County": "Yakutat",
+                "Z-Score": 0.0,
+                "Rank": 0
+                },
+                {
+                "FIPS": "02290",
+                "County": "Yukon-Koyukuk",
+                "Z-Score": 0.79,
+                "Rank": 22
+                }
+            ]
+    } 
+]       

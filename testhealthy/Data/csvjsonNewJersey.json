@@ -1,0 +1,135 @@
+[
+    {
+      "State": "New Jersey",
+      "FIPS": 34000,
+      "CountyDetails":
+        [
+            {
+            "FIPS": 34001,
+            "County": "Atlantic",
+            "Z-Score": 0.7,
+            "Rank": 19
+            },
+            {
+            "FIPS": 34003,
+            "County": "Bergen",
+            "Z-Score": -0.76,
+            "Rank": 4
+            },
+            {
+            "FIPS": 34005,
+            "County": "Burlington",
+            "Z-Score": -0.31,
+            "Rank": 8
+            },
+            {
+            "FIPS": 34007,
+            "County": "Camden",
+            "Z-Score": 0.45,
+            "Rank": 15
+            },
+            {
+            "FIPS": 34009,
+            "County": "Cape May",
+            "Z-Score": 0.39,
+            "Rank": 14
+            },
+            {
+            "FIPS": 34011,
+            "County": "Cumberland",
+            "Z-Score": 1.26,
+            "Rank": 21
+            },
+            {
+            "FIPS": 34013,
+            "County": "Essex",
+            "Z-Score": 0.6,
+            "Rank": 17
+            },
+            {
+            "FIPS": 34015,
+            "County": "Gloucester",
+            "Z-Score": 0.17,
+            "Rank": 13
+            },
+            {
+            "FIPS": 34017,
+            "County": "Hudson",
+            "Z-Score": 0.49,
+            "Rank": 16
+            },
+            {
+            "FIPS": 34019,
+            "County": "Hunterdon",
+            "Z-Score": -1.03,
+            "Rank": 1
+            },
+            {
+            "FIPS": 34021,
+            "County": "Mercer",
+            "Z-Score": -0.25,
+            "Rank": 9
+            },
+            {
+            "FIPS": 34023,
+            "County": "Middlesex",
+            "Z-Score": -0.33,
+            "Rank": 6
+            },
+            {
+            "FIPS": 34025,
+            "County": "Monmouth",
+            "Z-Score": -0.42,
+            "Rank": 5
+            },
+            {
+            "FIPS": 34027,
+            "County": "Morris",
+            "Z-Score": -0.93,
+            "Rank": 3
+            },
+            {
+            "FIPS": 34029,
+            "County": "Ocean",
+            "Z-Score": -0.04,
+            "Rank": 12
+            },
+            {
+            "FIPS": 34031,
+            "County": "Passaic",
+            "Z-Score": 0.64,
+            "Rank": 18
+            },
+            {
+            "FIPS": 34033,
+            "County": "Salem",
+            "Z-Score": 0.8,
+            "Rank": 20
+            },
+            {
+            "FIPS": 34035,
+            "County": "Somerset",
+            "Z-Score": -0.97,
+            "Rank": 2
+            },
+            {
+            "FIPS": 34037,
+            "County": "Sussex",
+            "Z-Score": -0.32,
+            "Rank": 7
+            },
+            {
+            "FIPS": 34039,
+            "County": "Union",
+            "Z-Score": -0.06,
+            "Rank": 11
+            },
+            {
+            "FIPS": 34041,
+            "County": "Warren",
+            "Z-Score": -0.07,
+            "Rank": 10
+            }
+        ]
+    }
+]
