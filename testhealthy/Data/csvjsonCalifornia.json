@@ -1,0 +1,415 @@
+[
+  {
+    "State": "California",
+    "FIPS": "06000",
+    "County": "",
+    "Z-Score": "",
+    "Rank": ""
+  },
+  {
+    "State": "California",
+    "FIPS": "06001",
+    "County": "Alameda",
+    "Z-Score": -0.61,
+    "Rank": 9
+  },
+  {
+    "State": "California",
+    "FIPS": "06003",
+    "County": "Alpine",
+    "Z-Score": "",
+    "Rank": "NR"
+  },
+  {
+    "State": "California",
+    "FIPS": "06005",
+    "County": "Amador",
+    "Z-Score": -0.34,
+    "Rank": 18
+  },
+  {
+    "State": "California",
+    "FIPS": "06007",
+    "County": "Butte",
+    "Z-Score": 0.1,
+    "Rank": 32
+  },
+  {
+    "State": "California",
+    "FIPS": "06009",
+    "County": "Calaveras",
+    "Z-Score": -0.18,
+    "Rank": 22
+  },
+  {
+    "State": "California",
+    "FIPS": "06011",
+    "County": "Colusa",
+    "Z-Score": 0.19,
+    "Rank": 37
+  },
+  {
+    "State": "California",
+    "FIPS": "06013",
+    "County": "Contra Costa",
+    "Z-Score": -0.61,
+    "Rank": 8
+  },
+  {
+    "State": "California",
+    "FIPS": "06015",
+    "County": "Del Norte",
+    "Z-Score": 0.61,
+    "Rank": 49
+  },
+  {
+    "State": "California",
+    "FIPS": "06017",
+    "County": "El Dorado",
+    "Z-Score": -0.61,
+    "Rank": 7
+  },
+  {
+    "State": "California",
+    "FIPS": "06019",
+    "County": "Fresno",
+    "Z-Score": 0.69,
+    "Rank": 53
+  },
+  {
+    "State": "California",
+    "FIPS": "06021",
+    "County": "Glenn",
+    "Z-Score": 0.45,
+    "Rank": 45
+  },
+  {
+    "State": "California",
+    "FIPS": "06023",
+    "County": "Humboldt",
+    "Z-Score": 0.08,
+    "Rank": 30
+  },
+  {
+    "State": "California",
+    "FIPS": "06025",
+    "County": "Imperial",
+    "Z-Score": 1.05,
+    "Rank": 56
+  },
+  {
+    "State": "California",
+    "FIPS": "06027",
+    "County": "Inyo",
+    "Z-Score": -0.02,
+    "Rank": 25
+  },
+  {
+    "State": "California",
+    "FIPS": "06029",
+    "County": "Kern",
+    "Z-Score": 1.06,
+    "Rank": 57
+  },
+  {
+    "State": "California",
+    "FIPS": "06031",
+    "County": "Kings",
+    "Z-Score": 0.59,
+    "Rank": 48
+  },
+  {
+    "State": "California",
+    "FIPS": "06033",
+    "County": "Lake",
+    "Z-Score": 0.68,
+    "Rank": 52
+  },
+  {
+    "State": "California",
+    "FIPS": "06035",
+    "County": "Lassen",
+    "Z-Score": 0.34,
+    "Rank": 42
+  },
+  {
+    "State": "California",
+    "FIPS": "06037",
+    "County": "Los Angeles",
+    "Z-Score": 0.11,
+    "Rank": 34
+  },
+  {
+    "State": "California",
+    "FIPS": "06039",
+    "County": "Madera",
+    "Z-Score": 0.67,
+    "Rank": 51
+  },
+  {
+    "State": "California",
+    "FIPS": "06041",
+    "County": "Marin",
+    "Z-Score": -1.14,
+    "Rank": 1
+  },
+  {
+    "State": "California",
+    "FIPS": "06043",
+    "County": "Mariposa",
+    "Z-Score": 0.05,
+    "Rank": 28
+  },
+  {
+    "State": "California",
+    "FIPS": "06045",
+    "County": "Mendocino",
+    "Z-Score": 0.22,
+    "Rank": 38
+  },
+  {
+    "State": "California",
+    "FIPS": "06047",
+    "County": "Merced",
+    "Z-Score": 0.72,
+    "Rank": 54
+  },
+  {
+    "State": "California",
+    "FIPS": "06049",
+    "County": "Modoc",
+    "Z-Score": 0.14,
+    "Rank": 35
+  },
+  {
+    "State": "California",
+    "FIPS": "06051",
+    "County": "Mono",
+    "Z-Score": -0.18,
+    "Rank": 21
+  },
+  {
+    "State": "California",
+    "FIPS": "06053",
+    "County": "Monterey",
+    "Z-Score": 0.08,
+    "Rank": 31
+  },
+  {
+    "State": "California",
+    "FIPS": "06055",
+    "County": "Napa",
+    "Z-Score": -0.48,
+    "Rank": 12
+  },
+  {
+    "State": "California",
+    "FIPS": "06057",
+    "County": "Nevada",
+    "Z-Score": -0.41,
+    "Rank": 15
+  },
+  {
+    "State": "California",
+    "FIPS": "06059",
+    "County": "Orange",
+    "Z-Score": -0.65,
+    "Rank": 6
+  },
+  {
+    "State": "California",
+    "FIPS": "06061",
+    "County": "Placer",
+    "Z-Score": -0.96,
+    "Rank": 3
+  },
+  {
+    "State": "California",
+    "FIPS": "06063",
+    "County": "Plumas",
+    "Z-Score": 0.06,
+    "Rank": 29
+  },
+  {
+    "State": "California",
+    "FIPS": "06065",
+    "County": "Riverside",
+    "Z-Score": 0.24,
+    "Rank": 39
+  },
+  {
+    "State": "California",
+    "FIPS": "06067",
+    "County": "Sacramento",
+    "Z-Score": 0.04,
+    "Rank": 27
+  },
+  {
+    "State": "California",
+    "FIPS": "06069",
+    "County": "San Benito",
+    "Z-Score": -0.08,
+    "Rank": 24
+  },
+  {
+    "State": "California",
+    "FIPS": "06071",
+    "County": "San Bernardino",
+    "Z-Score": 0.44,
+    "Rank": 44
+  },
+  {
+    "State": "California",
+    "FIPS": "06073",
+    "County": "San Diego",
+    "Z-Score": -0.26,
+    "Rank": 20
+  },
+  {
+    "State": "California",
+    "FIPS": "06075",
+    "County": "San Francisco",
+    "Z-Score": -0.73,
+    "Rank": 5
+  },
+  {
+    "State": "California",
+    "FIPS": "06077",
+    "County": "San Joaquin",
+    "Z-Score": 0.35,
+    "Rank": 43
+  },
+  {
+    "State": "California",
+    "FIPS": "06079",
+    "County": "San Luis Obispo",
+    "Z-Score": -0.58,
+    "Rank": 10
+  },
+  {
+    "State": "California",
+    "FIPS": "06081",
+    "County": "San Mateo",
+    "Z-Score": -1.04,
+    "Rank": 2
+  },
+  {
+    "State": "California",
+    "FIPS": "06083",
+    "County": "Santa Barbara",
+    "Z-Score": -0.34,
+    "Rank": 17
+  },
+  {
+    "State": "California",
+    "FIPS": "06085",
+    "County": "Santa Clara",
+    "Z-Score": -0.95,
+    "Rank": 4
+  },
+  {
+    "State": "California",
+    "FIPS": "06087",
+    "County": "Santa Cruz",
+    "Z-Score": -0.45,
+    "Rank": 13
+  },
+  {
+    "State": "California",
+    "FIPS": "06089",
+    "County": "Shasta",
+    "Z-Score": 0.16,
+    "Rank": 36
+  },
+  {
+    "State": "California",
+    "FIPS": "06091",
+    "County": "Sierra",
+    "Z-Score": 0,
+    "Rank": 26
+  },
+  {
+    "State": "California",
+    "FIPS": "06093",
+    "County": "Siskiyou",
+    "Z-Score": 0.11,
+    "Rank": 33
+  },
+  {
+    "State": "California",
+    "FIPS": "06095",
+    "County": "Solano",
+    "Z-Score": -0.11,
+    "Rank": 23
+  },
+  {
+    "State": "California",
+    "FIPS": "06097",
+    "County": "Sonoma",
+    "Z-Score": -0.54,
+    "Rank": 11
+  },
+  {
+    "State": "California",
+    "FIPS": "06099",
+    "County": "Stanislaus",
+    "Z-Score": 0.33,
+    "Rank": 41
+  },
+  {
+    "State": "California",
+    "FIPS": "06101",
+    "County": "Sutter",
+    "Z-Score": 0.26,
+    "Rank": 40
+  },
+  {
+    "State": "California",
+    "FIPS": "06103",
+    "County": "Tehama",
+    "Z-Score": 0.49,
+    "Rank": 47
+  },
+  {
+    "State": "California",
+    "FIPS": "06105",
+    "County": "Trinity",
+    "Z-Score": 0.48,
+    "Rank": 46
+  },
+  {
+    "State": "California",
+    "FIPS": "06107",
+    "County": "Tulare",
+    "Z-Score": 1.02,
+    "Rank": 55
+  },
+  {
+    "State": "California",
+    "FIPS": "06109",
+    "County": "Tuolumne",
+    "Z-Score": -0.31,
+    "Rank": 19
+  },
+  {
+    "State": "California",
+    "FIPS": "06111",
+    "County": "Ventura",
+    "Z-Score": -0.41,
+    "Rank": 16
+  },
+  {
+    "State": "California",
+    "FIPS": "06113",
+    "County": "Yolo",
+    "Z-Score": -0.44,
+    "Rank": 14
+  },
+  {
+    "State": "California",
+    "FIPS": "06115",
+    "County": "Yuba",
+    "Z-Score": 0.64,
+    "Rank": 50
+  }
+]

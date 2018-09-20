@@ -75,8 +75,10 @@ def JSON_from_excel():
         website_url = requests.get("https://en.wikipedia.org/w/index.php?title=User:Michael_J/County_table&oldid=368803236").text
         wikiBaseURL = "https://en.wikipedia.org"
         xlsFilesOnly = glob(filePath+"*.xls") # parse all xls file(s) only
+        print(xlsFilesOnly)
         StateList = []
         for xlsfile in xlsFilesOnly:
+            print("xls file being processed: " + xlsfile )
             yearReported = xlsfile[:4]
             wb = xlrd.open_workbook(xlsfile,ragged_rows = True) 
             if (wb != None):    
@@ -85,13 +87,16 @@ def JSON_from_excel():
                 if (sh != None): 
                     for row_index in range(sh.nrows):
                         HealthyCounty = {}
-                        if(row_index > 2 ):
+                        #if(row_index > 2 ): commented 9/18 start from 3.
+                        if(row_index > 3 ):
                             Soup = BeautifulSoup(website_url,'lxml')
                             CountyGeoLocTbl = Soup.find('table',{'class':'wikitable sortable'})
-                            StateShortName = sh.cell(row_index, 13 ).value
-                            CountyName = sh.cell(row_index, 2 ).value
-                            
+                            print("row_index: " + str(row_index) )
+                            FipsCountyCode = sh.cell(row_index, 0 ).value
+                            StateShortName = sh.cell(row_index, 1 ).value
+                                                     
                             StateName = sh.cell(row_index, 1 ).value 
+                            CountyName = sh.cell(row_index, 2 ).value
 
                             QualityofLife = { 
                                 "Z-Score" : sh.cell(row_index, 3 ).value,
@@ -170,14 +175,14 @@ def JSON_from_excel():
             json.dump(StateList, f, indent = 4)
 
         #Connection for local host
-        # conn = 'mongodb://localhost:27017'
-        # client = pymongo.MongoClient(conn)
-        # db=client.healthi_db
+        conn = 'mongodb://localhost:27017'
+        client = pymongo.MongoClient(conn)
+        db=client.healthi_db
         
         # #Connection for remote host
-        conn = 'mongodb://<add user Pwd here>@ds255332.mlab.com:55332/healthi_db'
-        client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
-        db = client.get_default_database()
+        #conn = 'mongodb://healthi_admin/healthisrs9=@ds255332.mlab.com:55332/healthi_db'
+        #client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+        #db = client.get_default_database()
 
         #create list of categories
         Category = ["QualityofLife","EconomicFactors","ClinicalCare","HealthBehaviours","PhysicalEnvironment"]
