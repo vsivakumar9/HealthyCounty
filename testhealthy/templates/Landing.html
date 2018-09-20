@@ -104,7 +104,9 @@
                 <div id = "map"></div>
             </div>
 
-            </div>
+
+            </div>  
+
 
         </div>
 
@@ -113,40 +115,39 @@
     <div class="jumbotron text-center"> 
         <div id="state" class="container"> 
             <div class="row">
+                <br>
                 <h4>Top 10 Counties of a State based on Health Factors</h4>
                 <br>
                 <br>
                 <br>
-            </div>
+            </div> 
             <div class="row">
                 <div class="col-lg-4 text-center">                    
                         <select class="form-control" id="stateselect2"> <option value="empty">Select State</option>
                         </select>
-                </div>
-                <div id="top10counties" class="col-lg-8">  
-                        <img src="../Images/USAMap.jpg" alt="USAMap" style="width:400px;height:400px;">
-                        <p class="text-center sub-head">USA Map</p>            
+                    <!-- Top 10 County Panel -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="top-10-counties">
+                                <h4 class="card-title text-dark" style="color: orange">
+                                    Top 10 Counties
+                                </h4>
+                                <table id="county-background2" class="table table-hover">
+                                    <thead>
+                                        <tr id="top-10-counties-table">
+                                            <td style="color: orange"><strong> County </strong></td>
+                                            <td style="color: orange"><strong> County Rank</strong></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>    
+                </div>                              
+                <div id="top10counties" class="col-lg-8">                    
                 </div> 
-            <!-- Top 10 County Panel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="top-10-counties">
-                        <h4 class="card-title text-dark" style="color: orange">
-                            Top 10 Counties
-                        </h4>
-                        <table id="county-background2" class="table table-hover">
-                            <thead>
-                                <tr id="top-10-counties-table">
-                                    <td style="color: orange"><strong> County </strong></td>
-                                    <td style="color: orange"><strong> County Rank</strong></td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>           
             </div>  
         </div>
     </div>
@@ -183,11 +184,28 @@
         <div class="jumbotron text-center"> <div id="aboutproject" class="container-fluid">
                 <div class ="row">
                         <div class="col-lg-12">  
-                            <h2>About our project: Healthy County</h2>
-                            <p>Is “Health” only about medical facilities and annual health checkup?</p>  
-                            <hr>
-                            <p>As per the World Health Organization holistic definition of health:</p> 
-                            <p>Health is a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity. </p>
+                            <h2 style="font-size:30px;"><strong>Healthy County</strong></h2>
+                            <h3 align="left" style="color:orange;">Objective:</h3>
+                            <ul>
+                                <li align="left" style="font-size:20px">How can we quantitively and qualitatively measure the health of a county?</li>
+                                <li align="left" style="font-size:20px">What are the factors that make a county healthy?</li>
+                                <li align="left" style="font-size:20px">How can we select a county based on the health parameters (e.g. air quality or proximity to health centers) that matter to an individual or families?</li>
+                            </ul>
+                            <h3 align="left" style="color:orange;">Approach:</h3>
+                            <ul>
+                                <li align="left" style="font-size:20px">Offer users the flexibility to select state and county of their choice. Based on the selection, display the 5 attributes that we have considered for the project, and respective ranks.</li>
+                                <li align="left" style="font-size:20px">Offer users the flexibility to select state and attribute of their choice, and ability to select one of top 3 counties for the selection</li>
+                                <li align="left" style="font-size:20px">Offer map visualization as a tool to compare and contrast the counties for a selected state</li>
+                            </ul>
+                            <h3 align="left" style="color:orange;">Technology Stack:</h3>
+                            <ul>
+                                <li align="left" style="font-size:20px">Presentation Layer: HTML, CSS, Bootstrap</li>
+                                <li align="left" style="font-size:20px">Middleware: Flask</li>
+                                <li align="left" style="font-size:20px">DataBase: MONGODB</li>
+                                <li align="left" style="font-size:20px">Programming Languages: Python, Javascript, Jquery</li>
+                                <li align="left" style="font-size:20px">Vizualization: Leaflet & D3</li>
+                                <li align="left" style="font-size:20px">New libraries: glob2, xlrd</li>
+                            </ul>
                         </div>
                 </div>
         </div> 
@@ -197,30 +215,33 @@
                 <div class ="row">
                     <div class="col-lg-12">  
                         <h4>Healthy County Team</h4>
+                        <br>
+                        <br>
                         <br>  
                     </div>
                 </div>         
                 <div class="row">
                     <div class="col-lg-6">  
-                        <img src="../Images/health1.jpg" alt="Pragati" style="width:100px;height:100px;">
-                        <p class="text-center sub-head">Pragati Mehta</p>            
+                        <p class="text-center sub-head" style="color:orange;">Pragati Mehta</p> 
+                        <p><i>"From ideation till execution, learning, working together enjoyed every part of the project!"</i></p>           
                     </div>
-                    <div class="col-lg-6">
-                            <img src="../Images/health2.jpg" alt="Riicha" style="width:100px;height:100px;">
-                    <p class="text-center sub-head">Riicha Mohan</p>           
+                    <div class="col-lg-6">        
+                        <p class="text-center sub-head" style="color:orange;">Riicha Mohan</p>           
+                        <p><i>"In a project, every person each piece is equally important however small or seemingly insignificant they may seem, just like the nuts and bolts of a giant machine and time is the essence!"</i></p>
                     </div>
                 </div>
+                <br>
+                <br>
                 <div class="row">
                     <div class="col-lg-6">  
-                        <img src="../Images/health3.jpg"
-                                alt="Siva" style="width:100px;height:100px;">
-                        <p class="text-center sub-head">Siva</p>             
+                        <p class="text-center sub-head" style="color:orange;">Sivakumar Venkatachalam</p>             
+                        <p><i>"A project full of learnings!"</i></p>
                     </div>
-                        <div class="col-lg-6">
-                            <img src="../Images/health4.jpg" alt="Supriya" style="width:100px;height:100px;">
-                            <p class="text-center sub-head">Supriya Sathpathy</p>           
-                        </div>
-                    </div>        
+                    <div class="col-lg-6">
+                        <p class="text-center sub-head" style="color:orange;">Supriya Satpathy</p>
+                        <p><i>"The power of building on each other's work and collectively looking at the final product!"</i></p>           
+                    </div>
+                </div>        
                 </div> 
         </div>          
 

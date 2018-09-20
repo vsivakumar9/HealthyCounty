@@ -53,10 +53,26 @@ padding-top: 10px; */
 
 /* Set gray background color and 100% height */
 #map,.sidenav {
-padding-top: 5px;
+padding-top: 10px;
+
 /* background-color: #f1f1f1; */
 height: 95%;
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.bar {
+  fill: purple;
+}
+
+.bar:hover {
+  fill: orange;
+}
+
 
 tr:hover td {background:olivedrab}
 
